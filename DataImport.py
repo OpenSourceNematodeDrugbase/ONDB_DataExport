@@ -3,7 +3,7 @@ import os
 
 def look_up_keyword(df, column_name, keyword):
     results = df[df[column_name].str.contains(keyword, case=False, na=False)]
-    print(f"Results for lethal: {len(results)}")
+    print(f"Results for {keyword}: {len(results)}")
     return results
 
 def export_json(results, output_file_name):
@@ -45,18 +45,15 @@ def check_if_protein_or_enzyme(row):
     return is_protein, is_enzyme
 
 mart_df = pd.read_csv('mart_export.txt')
-print(mart_df.head())
 
 sm_df = pd.read_csv("simplemine_results.txt", sep="\t")
-print(sm_df.head())
 
 #Add column 'isProtein' and 'isEnzyme' and apply values for each row
 sm_df['Is_Protein'], sm_df['Is_Enzyme'] = zip(*sm_df.apply(check_if_protein_or_enzyme, axis=1))
-print(sm_df[['Is_Protein', 'Is_Enzyme']])
+#print(sm_df[['Is_Protein', 'Is_Enzyme']])
 
 lethalResults = look_up_keyword(sm_df, "RNAi Phenotype Observed", 'lethal')
 aceResults = look_up_keyword(sm_df, "RNAi Phenotype Observed", 'ase')
-print(lethalResults)
 
 export_json(lethalResults, "lethalResults.json")
 
