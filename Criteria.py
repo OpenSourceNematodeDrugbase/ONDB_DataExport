@@ -1,21 +1,8 @@
+import uuid
 import pandas as pd
-import os
 import requests
 from io import StringIO
 import re
-
-def look_up_keyword(df, column_name, keyword):
-    results = df[df[column_name].str.contains(keyword, case=False, na=False)]
-    return results
-
-def is_data_null(df, column_name):
-    for index, row in df.iterrows():
-        if row[column_name].isnull():
-            return True
-        else:
-            return False
-
-
 
 # Wormbase Parasite BioMart URL
 biomart_url = "https://parasite.wormbase.org/biomart/martservice?query="
@@ -24,22 +11,22 @@ xml_query = """
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Query>
 <Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >
-			
-	<Dataset name = "wbps_gene" interface = "default" >
-		<Filter name = "species_id_1010" value = "wubancprjna275548"/>
-		<Attribute name = "production_name_1010" />
-		<Attribute name = "hsapiens_gene" />
-		<Attribute name = "hsapiens_gene_name" />
-		<Attribute name = "hsapiens_homolog_ensembl_peptide" />
-		<Attribute name = "hsapiens_orthology_type" />
-		<Attribute name = "hsapiens_homolog_perc_id" />
-		<Attribute name = "hsapiens_homolog_perc_id_r1" />
-		<Attribute name = "gene_biotype" />
-		<Attribute name = "wbps_gene_id" />
-		<Attribute name = "caelegprjna13758_gene" />
-		<Attribute name = "caelegprjna13758_gene_name" />
-		<Attribute name = "caelegprjna13758_homolog_perc_id" />
-	</Dataset>
+
+    <Dataset name = "wbps_gene" interface = "default" >
+        <Filter name = "species_id_1010" value = "wubancprjna275548"/>
+        <Attribute name = "production_name_1010" />
+        <Attribute name = "hsapiens_gene" />
+        <Attribute name = "hsapiens_gene_name" />
+        <Attribute name = "hsapiens_homolog_ensembl_peptide" />
+        <Attribute name = "hsapiens_orthology_type" />
+        <Attribute name = "hsapiens_homolog_perc_id" />
+        <Attribute name = "hsapiens_homolog_perc_id_r1" />
+        <Attribute name = "gene_biotype" />
+        <Attribute name = "wbps_gene_id" />
+        <Attribute name = "caelegprjna13758_gene" />
+        <Attribute name = "caelegprjna13758_gene_name" />
+        <Attribute name = "caelegprjna13758_homolog_perc_id" />
+    </Dataset>
 </Query>
 """
 
@@ -51,51 +38,69 @@ xml_query = xml_query.replace('\n', '').replace('\r', '')
 xml_query = re.sub(r'header\s*=\s*"0"', 'header="1"', xml_query)
 response = requests.get(biomart_url + xml_query)
 
-df = pd.read_csv(StringIO(response.text), sep="\t")
+df_response = pd.read_csv(StringIO(response.text), sep="\t")
 
-length = 0
-nullLength = 0
-validLength = 0
+# Assuming df_response is your DataFrame
+print(f"Querying {len(df_response)} records...")
 
-for index, row in df.iterrows():
-    is_nan = pd.isnull(df.loc[index, "Human gene stable ID"])
-    print(f"Gene: {df.loc[index, "Gene stable ID"]}, Column: Human gene stable ID, Is Null: {is_nan}")
+# Generate a unique 'id' for each row in the DataFrame
+df_response['id'] = [str(uuid.uuid4()) for _ in range(len(df_response))]
 
-    length += 1
+# Convert the DataFrame to a list of dictionaries (records)
+records = df_response.to_dict(orient="records")
 
-    if is_nan:
-        nullLength += 1
-    else:
-        validLength += 1
+def look_up_keyword(df, column_name, keyword):
+    results = df[df[column_name].str.contains(keyword, case=False, na=False)]
+    return results
 
-print(f"Total Length: {length}")
-print(f"Total Null Length: {nullLength}")
-print(f"Total Valid Length: {validLength}")
+def look_up_null(df, column_name):
+    results = []
 
-gene = "wuchereria_bancrofti_prjna275548"
-prop = "Human gene stable ID"
-val = df.loc[0, prop]
+    # Iterate over rows where the specified column has NaN values
+    for row_index, row in df.iterrows():
+        if pd.isnull(row[column_name]):
+            results.append((row_index, row))  # Store index and entire row as a tuple
 
-proteins = look_up_keyword(df, "Gene biotype", "protein_coding")
+    return results
 
-print(f"Results for Proteins: {len(proteins)}")
+def look_up_value(df, greater_than, threshold, column_name):
+    results = []
 
-identityValid = 0
+    if column_name not in df.columns:
+        raise ValueError(f"Column '{column_name}' not found in DataFrame.")
 
-for index, row in df.iterrows():
-    if row["% identity"] < 10:
-        print(f"Gene: {df.loc[index, "Gene stable ID"]}, Column: %Identity: {row["% identity"]}")
-        identityValid += 1
+    for row_index, row in df.iterrows():
+        value = row[column_name]
+        if pd.notnull(value):  # Skip Null Values
+            if greater_than and value > threshold:
+                results.append((row_index, column_name))
+            elif not greater_than and value < threshold:
+                results.append((row_index, column_name))
+    return results
 
-print(f"Total Valid Identity: {identityValid}")
+#This is an example of a criteria function
+def human_simularity():
+    null_human_orthologue = look_up_null(df_response, "Human protein stable ID")
 
-#Determine Score
-#Save Attributes to Gene Output
-#For each class, export the data and scores
+    # Extract the 'id' from the null_human_orthologue list of tuples
+    null_ids = {row[1]["id"] for row in null_human_orthologue}
 
-#Class (Gene)
-#identity%
-#Gene biotype
+    print(f"Number of drug targets that do not have a similar protein to humans: {len(null_human_orthologue)}")
+
+    # Iterate through the records and update 'is_in_tuple' based on whether the ID is in null_ids
+    for record in records:
+        if record["id"] in null_ids:
+            record["orthologue_comparison"] = False
+        else:
+            record["orthologue_comparison"] = True
+
+
+
+human_simularity()
+
+
+
+
 
 
 
