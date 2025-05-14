@@ -79,7 +79,7 @@ def look_up_value(df, greater_than, threshold, column_name):
     return results
 
 #This is an example of a criteria function
-def human_simularity():
+def human_similarity():
     null_human_orthologue = look_up_null(df_response, "Human protein stable ID")
 
     # Extract the 'id' from the null_human_orthologue list of tuples
