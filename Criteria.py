@@ -4,6 +4,7 @@ import requests
 from io import StringIO
 import re
 import json
+import sys
 
 # Wormbase Parasite BioMart URL
 biomart_url = "https://parasite.wormbase.org/biomart/martservice?query="
@@ -12,21 +13,13 @@ xml_query = """
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Query>
 <Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >
-
     <Dataset name = "wbps_gene" interface = "default" >
         <Filter name = "species_id_1010" value = "wubancprjna275548"/>
         <Attribute name = "production_name_1010" />
-        <Attribute name = "hsapiens_gene" />
-        <Attribute name = "hsapiens_gene_name" />
-        <Attribute name = "hsapiens_homolog_ensembl_peptide" />
-        <Attribute name = "hsapiens_orthology_type" />
-        <Attribute name = "hsapiens_homolog_perc_id" />
-        <Attribute name = "hsapiens_homolog_perc_id_r1" />
-        <Attribute name = "gene_biotype" />
         <Attribute name = "wbps_gene_id" />
-        <Attribute name = "caelegprjna13758_gene" />
-        <Attribute name = "caelegprjna13758_gene_name" />
-        <Attribute name = "caelegprjna13758_homolog_perc_id" />
+        <Attribute name = "wbps_paralog_gene" />
+        <Attribute name = "wbps_gene__paralog__dm_perc_id_4015" />
+        <Attribute name = "wbps_gene__paralog__dm_perc_id_4015_r1" />
     </Dataset>
 </Query>
 """
@@ -37,9 +30,25 @@ xml_query = xml_query.replace('\n', '').replace('\r', '')
 # change header = "0" to header = "1" to get the column names in the first row of the biomart output
 
 xml_query = re.sub(r'header\s*=\s*"0"', 'header="1"', xml_query)
-response = requests.get(biomart_url + xml_query)
+response = requests.get(biomart_url + xml_query, stream=True)
 
-df_response = pd.read_csv(StringIO(response.text), sep="\t")
+total_size = int(response.headers.get('content-length', 0))
+chunk_size = 1024
+downloaded = 0
+data = ""
+
+print("Downloading BioMart data...")
+
+for chunk in response.iter_content(chunk_size=chunk_size):
+        if chunk:
+            downloaded += len(chunk)
+            data += chunk.decode("utf-8")
+            sys.stdout.write(f"\rDownloaded {downloaded / 1024:.1f} KB")
+            sys.stdout.flush()
+
+print("\nDownload complete.")
+
+df_response = pd.read_csv(StringIO(data), sep="\t")
 
 # Assuming df_response is your DataFrame
 print(f"Querying {len(df_response)} records...")
@@ -50,17 +59,22 @@ df_response['id'] = [str(uuid.uuid4()) for _ in range(len(df_response))]
 # Convert the DataFrame to a list of dictionaries (records)
 records = df_response.to_dict(orient="records")
 
+def column_exists(column_name):
+    return column_name in df_response.columns
+
 def look_up_keyword(df, column_name, keyword):
     results = df[df[column_name].str.contains(keyword, case=False, na=False)]
     return results
 
-def look_up_null(df, column_name):
+def look_up_null(df, column_name, return_ids_only=False):
     results = []
 
-    # Iterate over rows where the specified column has NaN values
     for row_index, row in df.iterrows():
         if pd.isnull(row[column_name]):
-            results.append((row_index, row))  # Store index and entire row as a tuple
+            if return_ids_only:
+                results.append(row["id"])
+            else:
+                results.append((row_index, row))
 
     return results
 
@@ -79,21 +93,24 @@ def look_up_value(df, greater_than, threshold, column_name):
                 results.append((row_index, column_name))
     return results
 
-#This is an example of a criteria function
-def human_similarity():
-    null_human_orthologue = look_up_null(df_response, "Human protein stable ID")
+def check_data_assigned(column_names, criteria_key, null_is_true):
+    null_ids = set()
 
-    # Extract the 'id' from the null_human_orthologue list of tuples
-    null_ids = {row[1]["id"] for row in null_human_orthologue}
+    for column_name in column_names:
+        if column_exists(column_name):
+            null_ids.update(look_up_null(df_response, column_name, True))
+        else:
+            print(f"Column '{column_name}' does not exist.")
+            null_is_true = True
 
-    print(f"Number of drug targets that do not have a similar protein to humans: {len(null_human_orthologue)}")
+    print(f"Number of drug targets that DO NOT have {criteria_key} assigned: {len(null_ids)}")
 
-    # Iterate through the records and update 'similar_protein_in_humans' based on whether the ID is in null_ids
     for record in records:
         if record["id"] in null_ids:
-            record["similar_protein_in_humans"] = False
+            record[criteria_key] = null_is_true
         else:
-            record["similar_protein_in_humans"] = True
+            record[criteria_key] = not null_is_true
+
 
 def sanitize_key(key):
     # Lowercase for consistency
@@ -134,9 +151,13 @@ def export_data_json(filename):
 
     print(f"Data exported to {filename}")
 
+print(df_response.columns)
 
+check_data_assigned(["Human protein stable ID"], "similar_protein_in_humans", null_is_true=False) #Human Similarity
+check_data_assigned(["InterPro ID"], "has_known_protein_domain", null_is_true=False) #Has InterPro ID
+check_data_assigned(["GO term accession", "GO term name", "GO term evidence code"], "has_gene_ontology_functional_annotation", null_is_true=False) #Gene Ontology (GO) functional annotation
+check_data_assigned(["Paralogue gene stable ID"], "has_gene_ontology_functional_annotation", null_is_true=False) #Has paralogue ID
 
-human_similarity()
 export_data_json("records.json")
 
 

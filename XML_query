@@ -1,0 +1,22 @@
+<Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >
+    <Dataset name = "wbps_gene" interface = "default" >
+        <Filter name = "species_id_1010" value = "wubancprjna275548"/>
+        <Attribute name = "production_name_1010" />
+        <Attribute name = "hsapiens_gene" />
+        <Attribute name = "hsapiens_gene_name" />
+        <Attribute name = "hsapiens_homolog_ensembl_peptide" />
+        <Attribute name = "hsapiens_orthology_type" />
+        <Attribute name = "hsapiens_homolog_perc_id" />
+        <Attribute name = "hsapiens_homolog_perc_id_r1" />
+        <Attribute name = "gene_biotype" />
+        <Attribute name = "wbps_gene_id" />
+        <Attribute name = "interpro_id" />
+	    <Attribute name = "interpro_description" />
+        <Attribute name = "go_accession" />
+        <Attribute name = "go_name_1006" />
+        <Attribute name = "go_linkage_type" />
+        <Attribute name = "wbps_paralog_gene" />
+	    <Attribute name = "wbps_gene__paralog__dm_perc_id_4015" />
+	    <Attribute name = "wbps_gene__paralog__dm_perc_id_4015_r1" />
+        </Dataset>
+</Query>
