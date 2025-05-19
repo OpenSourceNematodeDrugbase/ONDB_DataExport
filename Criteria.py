@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from io import StringIO
 import re
+import json
 
 # Wormbase Parasite BioMart URL
 biomart_url = "https://parasite.wormbase.org/biomart/martservice?query="
@@ -87,16 +88,58 @@ def human_similarity():
 
     print(f"Number of drug targets that do not have a similar protein to humans: {len(null_human_orthologue)}")
 
-    # Iterate through the records and update 'is_in_tuple' based on whether the ID is in null_ids
+    # Iterate through the records and update 'similar_protein_in_humans' based on whether the ID is in null_ids
     for record in records:
         if record["id"] in null_ids:
-            record["orthologue_comparison"] = False
+            record["similar_protein_in_humans"] = False
         else:
-            record["orthologue_comparison"] = True
+            record["similar_protein_in_humans"] = True
+
+def sanitize_key(key):
+    # Lowercase for consistency
+    key = key.lower()
+
+    # Replace invalid Firebase chars (including space, %, (), etc.) with underscore
+    key = re.sub(r'[.#$/\[\]\s%()]+', '_', key)
+
+    # Remove leading/trailing underscores
+    key = key.strip('_')
+
+    return key
+
+def export_data_json(filename):
+    clean_records = []
+
+    for record in records:
+        clean_record = {}
+        for key, value in record.items():
+            # Skip 'id' field
+            if key == 'id':
+                continue
+
+            # Replace NaN with "NaN" string
+            if pd.isnull(value):
+                value = "NaN"
+
+            # Sanitize the key for Firebase
+            safe_key = sanitize_key(key)
+
+            clean_record[safe_key] = value
+
+        clean_records.append(clean_record)
+
+    # Write to JSON
+    with open(filename, 'w', encoding='utf-8') as file:
+        json.dump(clean_records, file, indent=4)
+
+    print(f"Data exported to {filename}")
 
 
 
-human_simularity()
+human_similarity()
+export_data_json("records.json")
+
+
 
 
 
