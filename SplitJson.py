@@ -22,4 +22,4 @@ def split_json(input_file, output_dir, chunk_size):
 
     print(f"\n✅ Successfully split into {total_chunks} file(s) in '{output_dir}'.")
 
-split_json("records.json", "JsonExport", 25000)
+split_json("records.json", "JsonExport", 9000)
