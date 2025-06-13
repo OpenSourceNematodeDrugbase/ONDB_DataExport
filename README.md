@@ -20,5 +20,4 @@ Import Type: secondary
 - InterPro ID
 - Human Protein Stable ID
 - Paralogue Gene Stable ID
-- Identity
-- Gene Biotype
+- % Identity (Human Orthologue)
