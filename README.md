@@ -2,13 +2,13 @@
 
 Data Import Files for Each Specie
 
-Import files should be limited to six output attributes. Please keep query filters to a minimum.
+Import files should be limited to six output attributes. Please keep query filters to a minimum. Every import file must include 'Gene Type'
 
 Name: genomename_importtype_date
 
 Import Type: primary
-- Genome Project
 - Gene Stable ID
+- Genome Project
 - Genome Name
 - Gene Type
 - Go Term Accession
@@ -17,6 +17,7 @@ Import Type: primary
 
 
 Import Type: secondary
+- Gene Stable ID
 - InterPro ID
 - Human Protein Stable ID
 - Paralogue Gene Stable ID
