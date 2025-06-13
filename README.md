@@ -2,7 +2,7 @@
 
 Data Import Files for Each Specie
 
-Import files should be limited to six output attributes. Please keep query filters to a minimum. Every import file must include 'Gene Type'
+Import files should be limited to six output attributes. Please keep query filters to a minimum. Every import file must include 'Gene Stable ID'
 
 Name: genomename_importtype_date
 
