@@ -2,7 +2,7 @@
 
 Data Import Files for Each Specie
 
-Import files should be limited to seven output attributes.
+Import files should be limited to six output attributes. Please keep query filters to a minimum.
 
 Name: genomename_importtype_date
 
