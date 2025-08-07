@@ -36,7 +36,7 @@ def queryWbpHumanOrthologues(genomes):
 
 
     # Tests
-    # There should be no dupliacates in the gene IDs
+    # There should be no duplicates in the gene IDs
     duplicates = df_filtered['Gene stable ID'].duplicated().any()
     assert not duplicates, "Duplicate values found in 'id' column"
     # There should be at least 10000 genes retrieved

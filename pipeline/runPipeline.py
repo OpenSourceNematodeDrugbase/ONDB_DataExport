@@ -1,6 +1,7 @@
 import pandas as pd
 from populateGeneList import *
 from wbpHumanOrthologues import *
+from testIsEnzyme import testIsEnzyme
 
 # define list of genomes to query
 
@@ -19,4 +20,15 @@ print("Number of genes lacking WBP human orthologue:", wbpHumanOrthologues[wbpHu
 print("Number of genes lacking best WBP human orthologue >= 40% identity:", wbpHumanOrthologues[wbpHumanOrthologues['best_WBP_human_orthologue_lt_40pct_identity'] == True].shape[0])
 
 overall = pd.merge(geneList, wbpHumanOrthologues, on='Gene stable ID', how='left')
+
+isEnzyme = testIsEnzyme(genomes)
+isEnzyme.to_csv('pipeline/isEnzyme.csv', index=False)
+print("Number of genes that are enzymes:", isEnzyme[isEnzyme['is_enzyme'] == True].shape[0])
+
+
+overall = pd.merge(overall, isEnzyme, on='Gene stable ID', how='left')
 overall.to_csv('pipeline/overall.csv', index=False)
+
+
+
+
