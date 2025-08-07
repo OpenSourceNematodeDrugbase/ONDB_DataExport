@@ -2,12 +2,7 @@ import pandas as pd
 
 from queryWbpBiomart import *
 
-def retrieveGeneListFromWbpBiomart():
-
-    # define list of genomes to query
-
-    # for now, we will just use the most recent Wuchereria bancrofti genome
-    genomes = "wubancprjna275548" 
+def retrieveGeneListFromWbpBiomart(genomes):
 
     # define the XML query to fetch gene IDs and descriptions
 
