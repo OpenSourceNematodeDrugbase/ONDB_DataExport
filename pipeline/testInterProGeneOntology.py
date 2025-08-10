@@ -2,7 +2,7 @@ import pandas as pd
 from queryWbpBiomart import fetch_wbp_biomart_using_xml
 
 
-def testIsEnzyme(genomes):
+def testInterProGeneOntology(genomes, go_term, test_name):
 # first we fetch all the interpro annotations for each gene
 
     xml_query = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -40,8 +40,8 @@ def testIsEnzyme(genomes):
     from goatools import obo_parser
     go_dag = obo_parser.GODag("pipeline/go-basic.obo")
 
-    # Find all GO terms descending from enzymes
-    root_go = "GO:0003824"
+    # Find all GO terms descending from the GO term of interest e.g. "GO:0003824" = catalytic activity
+    root_go = go_term
     descendants = go_dag[root_go].get_all_children()
     descendants.add(root_go)  # Include the parent itself
 
@@ -85,34 +85,35 @@ def testIsEnzyme(genomes):
                     interpro2go.setdefault(ipr_id, set()).update(go_ids)
 
 
-    def is_interpro_enzyme(ipr_id, interpro2go, enzyme_go_terms):
+    def is_go_term_matching(ipr_id, interpro2go, search_go_terms):
+        # Check if any GO terms associated with the InterPro ID match the search terms
         go_terms = interpro2go.get(ipr_id, set())
-        return any(go in enzyme_go_terms for go in go_terms)
+        return any(go in search_go_terms for go in go_terms)
     
-    df['is_enzyme'] = df['InterPro ID'].apply(
-        lambda ipr: is_interpro_enzyme(ipr, interpro2go, descendants)
+    df[test_name] = df['InterPro ID'].apply(
+        lambda ipr: is_go_term_matching(ipr, interpro2go, descendants)
     )
 
-    # now we would like to list the domains which lead to identification as an enzyme, for those genes that are enzymes
+    # now we would like to list the domains which lead to identification as X, for those genes that are X
 
     # remove duplicates in the DataFrame
     df = df.drop_duplicates()
 
 
-    # for each gene, if there are rows where is_enzyme is True, we will concatenate the InterPro IDs and descriptions
-    # and keep only the rows where is_enzyme is True
-    # for genes where is_enzyme is False that column will be empty
+    # for each gene, if there are rows where test is True, we will concatenate the InterPro IDs and descriptions
+    # and keep only the rows where test is True
+    # for genes where test is False that column will be empty
 
     # thanks genAI for this code which I don't quite understand....
     result_rows = []    
     for name, group in df.groupby('Gene stable ID'):
-        has_true = group['is_enzyme'].any()
-        has_false = (~group['is_enzyme']).any()
+        has_true = group[test_name].any()
+        has_false = (~group[test_name]).any()
 
         
         if has_true and has_false:
             # Keep only True rows for concatenation
-            filtered_group = group[group['is_enzyme'] == True]
+            filtered_group = group[group[test_name] == True]
         elif has_true:
             # All rows are True
             filtered_group = group
@@ -125,11 +126,11 @@ def testIsEnzyme(genomes):
 
         if has_true:
             # Create concatenated values and join from true rows
-            true_rows = group[group['is_enzyme'] == True]
+            true_rows = group[group[test_name] == True]
             concat_values = true_rows['InterPro ID'] + '_' + true_rows['InterPro description']
-            result_row['ipID_desc'] = ', '.join(concat_values)
+            result_row[test_name + '_ipID_desc'] = ', '.join(concat_values)
         else:
-            result_row['ipID_desc'] = ''
+            result_row[test_name + '_ipID_desc'] = ''
         
         result_rows.append(result_row)
 

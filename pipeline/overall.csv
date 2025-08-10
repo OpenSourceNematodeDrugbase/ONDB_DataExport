@@ -1,4 +1,4 @@
-Gene stable ID,Transcript biotype,Gene description,Human gene stable ID,Human gene name,Homology type,% identity,Human % identity,lacks_WBP_human_orthologue,best_WBP_human_orthologue_lt_40pct_identity,is_enzyme,ipID_desc
+Gene stable ID,Transcript biotype,Gene description,Human gene stable ID,Human gene name,Homology type,% identity,Human % identity,lacks_WBP_human_orthologue,best_WBP_human_orthologue_lt_40pct_identity,is_enzyme,is_enzyme_ipID_desc
 Wban_00001,protein_coding,C2H2-type domain-containing protein  [Source:UniProtKB/TrEMBL;Acc:A0A3P7DYR7],,,,0.0,,True,True,False,
 Wban_00002,protein_coding,Mothers against decapentaplegic homolog  [Source:UniProtKB/TrEMBL;Acc:A0A3P7FCU2],ENSG00000175387,SMAD2,ortholog_one2many,53.0488,55.8887,False,False,False,
 Wban_00003,protein_coding,,,,,0.0,,True,True,False,
