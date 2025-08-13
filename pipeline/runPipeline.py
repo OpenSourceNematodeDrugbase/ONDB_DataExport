@@ -1,7 +1,9 @@
 import pandas as pd
+import polars as pl
 from populateGeneList import *
 from wbpHumanOrthologues import *
 from testInterProGeneOntology import *
+from testInterProStringSearch import *
 
 # define list of genomes to query
 
@@ -12,7 +14,6 @@ genomes = "wubancprjna275548"
 geneList = retrieveGeneListFromWbpBiomart(genomes)
 geneList.to_csv('pipeline/geneList.csv', index=False)
 print("Number of genes retrieved:", geneList.shape[0])
-
 
 wbpHumanOrthologues = queryWbpHumanOrthologues(genomes)
 wbpHumanOrthologues.to_csv('pipeline/wbpHumanOrthologues.csv', index=False)
@@ -33,13 +34,17 @@ is_ion_channel = testInterProGeneOntology(genomes, "GO:0015267", "is_ion_channel
 is_ion_channel.to_csv('pipeline/is_ion_channel.csv', index=False)
 overall = pd.merge(overall, is_ion_channel, on='Gene stable ID', how='left')
 
-is_gpcr = testInterProGeneOntology(genomes, "GO:0004930", "is_gpcr")
+is_gpcr = testInterProStringSearch(genomes, ["G protein-coupled receptor", "GPCR"], "is_gpcr")
+is_gpcr = is_gpcr.to_pandas()
 is_gpcr.to_csv('pipeline/is_gpcr.csv', index=False)
 overall = pd.merge(overall, is_gpcr, on='Gene stable ID', how='left')
 
 is_nuclear_receptor = testInterProGeneOntology(genomes, "GO:0004879", "is_nuclear_receptor")
 is_nuclear_receptor.to_csv('pipeline/is_nuclear_receptor.csv', index=False)
 overall = pd.merge(overall, is_nuclear_receptor, on='Gene stable ID', how='left')
+
+
+
 
 overall.to_csv('pipeline/overall.csv', index=False)
 
