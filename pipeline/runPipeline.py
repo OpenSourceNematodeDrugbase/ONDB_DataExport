@@ -1,5 +1,7 @@
 import pandas as pd
 import polars as pl
+import numpy as np
+
 from populateGeneList import *
 from wbpHumanOrthologues import *
 from testInterProGeneOntology import *
@@ -43,7 +45,11 @@ is_nuclear_receptor = testInterProGeneOntology(genomes, "GO:0004879", "is_nuclea
 is_nuclear_receptor.to_csv('pipeline/is_nuclear_receptor.csv', index=False)
 overall = pd.merge(overall, is_nuclear_receptor, on='Gene stable ID', how='left')
 
-
+# is privileged target family if any of these are true
+overall['is_privileged_target_family'] = overall[['is_enzyme', 'is_kinase', 'is_ion_channel', 'is_gpcr', 'is_nuclear_receptor']].any(axis=1)
+overall['is_privileged_target_family_evidence'] = np.where(overall.is_privileged_target_family==True, 'Meets the following criteria: ' + overall[['is_enzyme', 'is_kinase', 'is_ion_channel', 'is_gpcr', 'is_nuclear_receptor']].apply(
+    lambda row: ", ".join(row.index[row]), axis=1
+), "Does not meet the following criteria:  'is_enzyme', 'is_kinase', 'is_ion_channel', 'is_gpcr', 'is_nuclear_receptor'")
 
 
 overall.to_csv('pipeline/overall.csv', index=False)
