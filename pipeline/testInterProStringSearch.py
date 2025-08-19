@@ -3,7 +3,7 @@ import polars as pl
 from queryWbpBiomart import fetch_wbp_biomart_using_xml_polars
 
 
-def testInterProStringSearch(genomes, search_strings, test_name):
+def testInterProStringSearch(genomes, search_string, test_name):
 # first we fetch all the interpro annotations for each gene
 
     xml_query = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -26,7 +26,8 @@ def testInterProStringSearch(genomes, search_strings, test_name):
     df = df.with_columns((pl.col("InterPro ID") + " - " + pl.col("InterPro description")).alias("interpro_annotation"))
 
     q = df.with_columns(
-        pl.when(pl.col("interpro_annotation").str.contains_any(search_strings))
+        # can't use str.contains.any as it does not support regular expressions
+        pl.when(pl.col("interpro_annotation").str.contains(search_string))
         .then(pl.col("interpro_annotation"))
         .otherwise(pl.lit(None))
         .alias('matches')
@@ -40,6 +41,13 @@ def testInterProStringSearch(genomes, search_strings, test_name):
         .otherwise(pl.lit(True))
         .alias(test_name)
     )    
+
+    output = output.with_columns(
+       pl.when(pl.col(test_name) == False)
+         .then(pl.lit("Encodes protein that lacks InterPro GPCR domains"))
+         .otherwise('Encodes protein with InterPro domain(s): ' + pl.col(test_name+'_evidence'))
+         .alias(test_name+'_evidence')
+    )
 
     return(output)
 

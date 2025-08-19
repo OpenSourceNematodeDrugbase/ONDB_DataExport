@@ -36,7 +36,9 @@ is_ion_channel = testInterProGeneOntology(genomes, "GO:0015267", "is_ion_channel
 is_ion_channel.to_csv('pipeline/is_ion_channel.csv', index=False)
 overall = pd.merge(overall, is_ion_channel, on='Gene stable ID', how='left')
 
-is_gpcr = testInterProStringSearch(genomes, ["G protein-coupled receptor", "GPCR"], "is_gpcr")
+# search for GPCR or G-protein coupled receptor, but not GPCR kinase  in the InterPro domain annotations
+# regular expressions for polars can't have lookaround hence basic approach below that needs to be checked carefully
+is_gpcr = testInterProStringSearch(genomes, 'G-protein coupled receptor|GPCR.[^k]', "is_gpcr")
 is_gpcr = is_gpcr.to_pandas()
 is_gpcr.to_csv('pipeline/is_gpcr.csv', index=False)
 overall = pd.merge(overall, is_gpcr, on='Gene stable ID', how='left')
