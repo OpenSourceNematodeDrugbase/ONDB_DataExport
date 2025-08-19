@@ -62,9 +62,3 @@ print("Number of genes that encode ion channels:", overall[is_ion_channel['is_io
 print("Number of genes that encode gpcrs:", overall[is_gpcr['is_gpcr'] == True].shape[0])
 print("Number of genes that encode nuclear receptors:", overall[is_nuclear_receptor['is_nuclear_receptor'] == True].shape[0])
 
-
-
-
-
-
-
