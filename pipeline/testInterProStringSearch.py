@@ -12,6 +12,7 @@ def testInterProStringSearch(genomes, search_string, test_name):
               
         <Dataset name = "wbps_gene" interface = "default" >
         <Filter name = "species_id_1010" value = "{genomes}"/>
+        <Filter name = "biotype" value = "protein_coding"/>
 		<Attribute name = "wbps_gene_id" />
 		<Attribute name = "interpro_id" />
 		<Attribute name = "interpro_description" />

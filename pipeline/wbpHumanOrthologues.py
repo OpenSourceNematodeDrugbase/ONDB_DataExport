@@ -8,6 +8,7 @@ def queryWbpHumanOrthologues(genomes):
     <Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >		
 	<Dataset name = "wbps_gene" interface = "default" >
 		<Filter name = "species_id_1010" value = "{genomes}"/>
+        <Filter name = "biotype" value = "protein_coding"/>
 		<Attribute name = "wbps_gene_id" />
 		<Attribute name = "hsapiens_gene" />
 		<Attribute name = "hsapiens_gene_name" />

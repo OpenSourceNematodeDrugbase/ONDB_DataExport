@@ -9,8 +9,9 @@ from testInterProStringSearch import *
 
 # define list of genomes to query
 
-# for now, we will just use the most recent Wuchereria bancrofti genome
-genomes = "wubancprjna275548" 
+# for now, we will just use the most recent Wuchereria bancrofti genome and the Trichuris trichiura genome
+genomes = "trtricprjeb535,wubancprjna275548" 
+
 
 
 geneList = retrieveGeneListFromWbpBiomart(genomes)
