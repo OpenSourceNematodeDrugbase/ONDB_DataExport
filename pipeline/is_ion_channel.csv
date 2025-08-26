@@ -1465,7 +1465,7 @@ TTRE11323,Does not have InterPro domains related to GO:0015267,False
 TTRE11324,Does not have InterPro domains related to GO:0015267,False
 TTRE11325,Does not have InterPro domains related to GO:0015267,False
 TTRE11326,Does not have InterPro domains related to GO:0015267,False
-TTRE11327,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+TTRE11327,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel",True
 TTRE11328,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE11329,Does not have InterPro domains related to GO:0015267,False
 TTRE1133,Does not have InterPro domains related to GO:0015267,False
@@ -1496,7 +1496,7 @@ TTRE11351,Does not have InterPro domains related to GO:0015267,False
 TTRE11352,Does not have InterPro domains related to GO:0015267,False
 TTRE11353,Does not have InterPro domains related to GO:0015267,False
 TTRE11354,Does not have InterPro domains related to GO:0015267,False
-TTRE11355,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003974 - Potassium channel, voltage dependent, Kv3, IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain",True
+TTRE11355,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003974 - Potassium channel, voltage dependent, Kv3, IPR005821 - Ion transport domain",True
 TTRE11356,Does not have InterPro domains related to GO:0015267,False
 TTRE11357,Does not have InterPro domains related to GO:0015267,False
 TTRE11358,Does not have InterPro domains related to GO:0015267,False
@@ -1556,7 +1556,7 @@ TTRE11405,Does not have InterPro domains related to GO:0015267,False
 TTRE11406,Does not have InterPro domains related to GO:0015267,False
 TTRE11407,Does not have InterPro domains related to GO:0015267,False
 TTRE11408,Does not have InterPro domains related to GO:0015267,False
-TTRE11409,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+TTRE11409,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 TTRE1141,Does not have InterPro domains related to GO:0015267,False
 TTRE11410,Does not have InterPro domains related to GO:0015267,False
 TTRE11411,Does not have InterPro domains related to GO:0015267,False
@@ -1709,7 +1709,7 @@ TTRE11543,Does not have InterPro domains related to GO:0015267,False
 TTRE11544,Does not have InterPro domains related to GO:0015267,False
 TTRE11545,Does not have InterPro domains related to GO:0015267,False
 TTRE11546,Does not have InterPro domains related to GO:0015267,False
-TTRE11547,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+TTRE11547,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE11548,Does not have InterPro domains related to GO:0015267,False
 TTRE11549,Does not have InterPro domains related to GO:0015267,False
 TTRE1155,Does not have InterPro domains related to GO:0015267,False
@@ -2344,7 +2344,7 @@ TTRE12115,Does not have InterPro domains related to GO:0015267,False
 TTRE12116,Does not have InterPro domains related to GO:0015267,False
 TTRE12117,Does not have InterPro domains related to GO:0015267,False
 TTRE12118,Does not have InterPro domains related to GO:0015267,False
-TTRE12119,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE12119,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE1212,Does not have InterPro domains related to GO:0015267,False
 TTRE12120,Does not have InterPro domains related to GO:0015267,False
 TTRE12121,Does not have InterPro domains related to GO:0015267,False
@@ -2486,7 +2486,7 @@ TTRE12243,Does not have InterPro domains related to GO:0015267,False
 TTRE12244,Does not have InterPro domains related to GO:0015267,False
 TTRE12245,Does not have InterPro domains related to GO:0015267,False
 TTRE12246,Does not have InterPro domains related to GO:0015267,False
-TTRE12247,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+TTRE12247,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
 TTRE12248,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha,True
 TTRE12249,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002153 - Transient receptor potential channel, canonical",True
 TTRE1225,Does not have InterPro domains related to GO:0015267,False
@@ -2671,7 +2671,7 @@ TTRE1241,Does not have InterPro domains related to GO:0015267,False
 TTRE12410,Does not have InterPro domains related to GO:0015267,False
 TTRE12411,Does not have InterPro domains related to GO:0015267,False
 TTRE12412,Does not have InterPro domains related to GO:0015267,False
-TTRE12413,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE12413,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 TTRE12414,Does not have InterPro domains related to GO:0015267,False
 TTRE12415,Does not have InterPro domains related to GO:0015267,False
 TTRE12416,Does not have InterPro domains related to GO:0015267,False
@@ -3047,13 +3047,13 @@ TTRE1345,Does not have InterPro domains related to GO:0015267,False
 TTRE1346,Does not have InterPro domains related to GO:0015267,False
 TTRE1347,Does not have InterPro domains related to GO:0015267,False
 TTRE1348,Does not have InterPro domains related to GO:0015267,False
-TTRE1349,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001779 - Two pore domain potassium channel, TWIK-1, IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel, IPR005408 - Two pore domain potassium channel, TWIK family",True
+TTRE1349,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family, IPR001779 - Two pore domain potassium channel, TWIK-1, IPR005408 - Two pore domain potassium channel, TWIK family",True
 TTRE135,Does not have InterPro domains related to GO:0015267,False
 TTRE1350,Does not have InterPro domains related to GO:0015267,False
 TTRE1351,Does not have InterPro domains related to GO:0015267,False
 TTRE1352,Does not have InterPro domains related to GO:0015267,False
 TTRE1353,Does not have InterPro domains related to GO:0015267,False
-TTRE1354,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+TTRE1354,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR002394 - Nicotinic acetylcholine receptor",True
 TTRE1355,Does not have InterPro domains related to GO:0015267,False
 TTRE1356,Does not have InterPro domains related to GO:0015267,False
 TTRE1357,Does not have InterPro domains related to GO:0015267,False
@@ -3647,7 +3647,7 @@ TTRE1889,Does not have InterPro domains related to GO:0015267,False
 TTRE189,Does not have InterPro domains related to GO:0015267,False
 TTRE1890,Does not have InterPro domains related to GO:0015267,False
 TTRE1891,Does not have InterPro domains related to GO:0015267,False
-TTRE1892,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+TTRE1892,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
 TTRE1893,Does not have InterPro domains related to GO:0015267,False
 TTRE1894,Does not have InterPro domains related to GO:0015267,False
 TTRE1895,Does not have InterPro domains related to GO:0015267,False
@@ -4007,7 +4007,7 @@ TTRE2211,Does not have InterPro domains related to GO:0015267,False
 TTRE2212,Does not have InterPro domains related to GO:0015267,False
 TTRE2213,Does not have InterPro domains related to GO:0015267,False
 TTRE2214,Does not have InterPro domains related to GO:0015267,False
-TTRE2215,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR002153 - Transient receptor potential channel, canonical",True
+TTRE2215,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002153 - Transient receptor potential channel, canonical, IPR005821 - Ion transport domain",True
 TTRE2216,Does not have InterPro domains related to GO:0015267,False
 TTRE2217,Does not have InterPro domains related to GO:0015267,False
 TTRE2218,Does not have InterPro domains related to GO:0015267,False
@@ -4155,7 +4155,7 @@ TTRE2345,Does not have InterPro domains related to GO:0015267,False
 TTRE2346,Does not have InterPro domains related to GO:0015267,False
 TTRE2347,Does not have InterPro domains related to GO:0015267,False
 TTRE2348,Does not have InterPro domains related to GO:0015267,False
-TTRE2349,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+TTRE2349,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE235,Does not have InterPro domains related to GO:0015267,False
 TTRE2350,Does not have InterPro domains related to GO:0015267,False
 TTRE2351,Does not have InterPro domains related to GO:0015267,False
@@ -4246,7 +4246,7 @@ TTRE2427,Does not have InterPro domains related to GO:0015267,False
 TTRE2428,Does not have InterPro domains related to GO:0015267,False
 TTRE2429,Does not have InterPro domains related to GO:0015267,False
 TTRE243,Does not have InterPro domains related to GO:0015267,False
-TTRE2430,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001873 - Epithelial sodium channel, IPR020903 - Epithelial sodium channel, conserved site, IPR004726 - Degenerin",True
+TTRE2430,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR020903 - Epithelial sodium channel, conserved site, IPR004726 - Degenerin, IPR001873 - Epithelial sodium channel",True
 TTRE2431,Does not have InterPro domains related to GO:0015267,False
 TTRE2432,Does not have InterPro domains related to GO:0015267,False
 TTRE2433,Does not have InterPro domains related to GO:0015267,False
@@ -4424,7 +4424,7 @@ TTRE2589,Does not have InterPro domains related to GO:0015267,False
 TTRE259,Does not have InterPro domains related to GO:0015267,False
 TTRE2590,Does not have InterPro domains related to GO:0015267,False
 TTRE2591,Does not have InterPro domains related to GO:0015267,False
-TTRE2592,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003971 - Potassium channel, voltage dependent, Kv9, IPR005821 - Ion transport domain, IPR003973 - Potassium channel, voltage dependent, Kv2",True
+TTRE2592,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003973 - Potassium channel, voltage dependent, Kv2, IPR003971 - Potassium channel, voltage dependent, Kv9, IPR005821 - Ion transport domain",True
 TTRE2593,Does not have InterPro domains related to GO:0015267,False
 TTRE2594,Does not have InterPro domains related to GO:0015267,False
 TTRE2595,Does not have InterPro domains related to GO:0015267,False
@@ -4715,7 +4715,7 @@ TTRE2850,Does not have InterPro domains related to GO:0015267,False
 TTRE2851,Does not have InterPro domains related to GO:0015267,False
 TTRE2852,Does not have InterPro domains related to GO:0015267,False
 TTRE2853,Does not have InterPro domains related to GO:0015267,False
-TTRE2854,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG, IPR003967 - Potassium channel, voltage-dependent, ERG, IPR005821 - Ion transport domain",True
+TTRE2854,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003967 - Potassium channel, voltage-dependent, ERG, IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG",True
 TTRE2855,Does not have InterPro domains related to GO:0015267,False
 TTRE2856,Does not have InterPro domains related to GO:0015267,False
 TTRE2857,Does not have InterPro domains related to GO:0015267,False
@@ -5348,7 +5348,7 @@ TTRE3423,Does not have InterPro domains related to GO:0015267,False
 TTRE3424,Does not have InterPro domains related to GO:0015267,False
 TTRE3425,Does not have InterPro domains related to GO:0015267,False
 TTRE3426,Does not have InterPro domains related to GO:0015267,False
-TTRE3427,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
+TTRE3427,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
 TTRE3428,Does not have InterPro domains related to GO:0015267,False
 TTRE3429,Does not have InterPro domains related to GO:0015267,False
 TTRE343,Does not have InterPro domains related to GO:0015267,False
@@ -5359,7 +5359,7 @@ TTRE3433,Does not have InterPro domains related to GO:0015267,False
 TTRE3434,Does not have InterPro domains related to GO:0015267,False
 TTRE3435,Does not have InterPro domains related to GO:0015267,False
 TTRE3436,Does not have InterPro domains related to GO:0015267,False
-TTRE3437,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+TTRE3437,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE3438,Does not have InterPro domains related to GO:0015267,False
 TTRE3439,Does not have InterPro domains related to GO:0015267,False
 TTRE344,Does not have InterPro domains related to GO:0015267,False
@@ -5460,7 +5460,7 @@ TTRE3524,Does not have InterPro domains related to GO:0015267,False
 TTRE3525,Does not have InterPro domains related to GO:0015267,False
 TTRE3526,Does not have InterPro domains related to GO:0015267,False
 TTRE3527,Does not have InterPro domains related to GO:0015267,False
-TTRE3528,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR024862 - Transient receptor potential cation channel subfamily V, IPR005821 - Ion transport domain",True
+TTRE3528,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR024862 - Transient receptor potential cation channel subfamily V",True
 TTRE3529,Does not have InterPro domains related to GO:0015267,False
 TTRE353,Does not have InterPro domains related to GO:0015267,False
 TTRE3530,Does not have InterPro domains related to GO:0015267,False
@@ -5581,7 +5581,7 @@ TTRE3633,Does not have InterPro domains related to GO:0015267,False
 TTRE3634,Does not have InterPro domains related to GO:0015267,False
 TTRE3635,Does not have InterPro domains related to GO:0015267,False
 TTRE3636,Does not have InterPro domains related to GO:0015267,False
-TTRE3637,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR004178 - Calmodulin-binding domain, IPR015449 - Potassium channel, calcium-activated, SK, IPR036122 - SK, calmodulin-binding domain superfamily",True
+TTRE3637,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR004178 - Calmodulin-binding domain, IPR036122 - SK, calmodulin-binding domain superfamily, IPR015449 - Potassium channel, calcium-activated, SK",True
 TTRE3638,Does not have InterPro domains related to GO:0015267,False
 TTRE3639,Does not have InterPro domains related to GO:0015267,False
 TTRE364,Does not have InterPro domains related to GO:0015267,False
@@ -5748,7 +5748,7 @@ TTRE3784,Does not have InterPro domains related to GO:0015267,False
 TTRE3785,Does not have InterPro domains related to GO:0015267,False
 TTRE3786,Does not have InterPro domains related to GO:0015267,False
 TTRE3787,Does not have InterPro domains related to GO:0015267,False
-TTRE3788,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE3788,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 TTRE3789,Does not have InterPro domains related to GO:0015267,False
 TTRE379,Does not have InterPro domains related to GO:0015267,False
 TTRE3790,Does not have InterPro domains related to GO:0015267,False
@@ -5985,7 +5985,7 @@ TTRE3998,Does not have InterPro domains related to GO:0015267,False
 TTRE3999,Does not have InterPro domains related to GO:0015267,False
 TTRE4,Does not have InterPro domains related to GO:0015267,False
 TTRE40,Does not have InterPro domains related to GO:0015267,False
-TTRE400,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003972 - Potassium channel, voltage dependent, Kv1, IPR005821 - Ion transport domain",True
+TTRE400,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003972 - Potassium channel, voltage dependent, Kv1, IPR003968 - Potassium channel, voltage dependent, Kv",True
 TTRE4000,Does not have InterPro domains related to GO:0015267,False
 TTRE4001,Does not have InterPro domains related to GO:0015267,False
 TTRE4002,Does not have InterPro domains related to GO:0015267,False
@@ -6326,7 +6326,7 @@ TTRE4303,Does not have InterPro domains related to GO:0015267,False
 TTRE4304,Does not have InterPro domains related to GO:0015267,False
 TTRE4305,Does not have InterPro domains related to GO:0015267,False
 TTRE4306,Does not have InterPro domains related to GO:0015267,False
-TTRE4307,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005446 - Voltage-dependent calcium channel, L-type, alpha-1 subunit, IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR005821 - Ion transport domain",True
+TTRE4307,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR005821 - Ion transport domain, IPR005446 - Voltage-dependent calcium channel, L-type, alpha-1 subunit",True
 TTRE4308,Does not have InterPro domains related to GO:0015267,False
 TTRE4309,Does not have InterPro domains related to GO:0015267,False
 TTRE431,Does not have InterPro domains related to GO:0015267,False
@@ -6471,7 +6471,7 @@ TTRE4434,Does not have InterPro domains related to GO:0015267,False
 TTRE4435,Does not have InterPro domains related to GO:0015267,False
 TTRE4436,Does not have InterPro domains related to GO:0015267,False
 TTRE4437,Does not have InterPro domains related to GO:0015267,False
-TTRE4438,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE4438,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR002394 - Nicotinic acetylcholine receptor",True
 TTRE4439,Does not have InterPro domains related to GO:0015267,False
 TTRE444,Does not have InterPro domains related to GO:0015267,False
 TTRE4440,Does not have InterPro domains related to GO:0015267,False
@@ -6583,7 +6583,7 @@ TTRE4536,Does not have InterPro domains related to GO:0015267,False
 TTRE4537,Does not have InterPro domains related to GO:0015267,False
 TTRE4538,Does not have InterPro domains related to GO:0015267,False
 TTRE4539,Does not have InterPro domains related to GO:0015267,False
-TTRE454,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain, IPR003974 - Potassium channel, voltage dependent, Kv3",True
+TTRE454,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003974 - Potassium channel, voltage dependent, Kv3, IPR005821 - Ion transport domain",True
 TTRE4540,Does not have InterPro domains related to GO:0015267,False
 TTRE4541,Does not have InterPro domains related to GO:0015267,False
 TTRE4542,Does not have InterPro domains related to GO:0015267,False
@@ -6771,7 +6771,7 @@ TTRE4705,Does not have InterPro domains related to GO:0015267,False
 TTRE4706,Does not have InterPro domains related to GO:0015267,False
 TTRE4707,Does not have InterPro domains related to GO:0015267,False
 TTRE4708,Does not have InterPro domains related to GO:0015267,False
-TTRE4709,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+TTRE4709,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel",True
 TTRE471,Does not have InterPro domains related to GO:0015267,False
 TTRE4710,Does not have InterPro domains related to GO:0015267,False
 TTRE4711,Does not have InterPro domains related to GO:0015267,False
@@ -6931,14 +6931,14 @@ TTRE4850,Does not have InterPro domains related to GO:0015267,False
 TTRE4851,Does not have InterPro domains related to GO:0015267,False
 TTRE4852,Does not have InterPro domains related to GO:0015267,False
 TTRE4853,Does not have InterPro domains related to GO:0015267,False
-TTRE4854,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR015449 - Potassium channel, calcium-activated, SK, IPR004178 - Calmodulin-binding domain, IPR036122 - SK, calmodulin-binding domain superfamily",True
+TTRE4854,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036122 - SK, calmodulin-binding domain superfamily, IPR004178 - Calmodulin-binding domain, IPR015449 - Potassium channel, calcium-activated, SK",True
 TTRE4855,Does not have InterPro domains related to GO:0015267,False
 TTRE4856,Does not have InterPro domains related to GO:0015267,False
 TTRE4857,Does not have InterPro domains related to GO:0015267,False
 TTRE4858,Does not have InterPro domains related to GO:0015267,False
 TTRE4859,Does not have InterPro domains related to GO:0015267,False
 TTRE486,Does not have InterPro domains related to GO:0015267,False
-TTRE4860,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+TTRE4860,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 TTRE4861,Does not have InterPro domains related to GO:0015267,False
 TTRE4862,Does not have InterPro domains related to GO:0015267,False
 TTRE4863,Does not have InterPro domains related to GO:0015267,False
@@ -7575,7 +7575,7 @@ TTRE5431,Does not have InterPro domains related to GO:0015267,False
 TTRE5432,Does not have InterPro domains related to GO:0015267,False
 TTRE5433,Does not have InterPro domains related to GO:0015267,False
 TTRE5434,Does not have InterPro domains related to GO:0015267,False
-TTRE5435,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002289 - Gamma-aminobutyric-acid A receptor, beta subunit, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE5435,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR002289 - Gamma-aminobutyric-acid A receptor, beta subunit, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 TTRE5436,Does not have InterPro domains related to GO:0015267,False
 TTRE5437,Does not have InterPro domains related to GO:0015267,False
 TTRE5438,Does not have InterPro domains related to GO:0015267,False
@@ -7984,7 +7984,7 @@ TTRE5801,Does not have InterPro domains related to GO:0015267,False
 TTRE5802,Does not have InterPro domains related to GO:0015267,False
 TTRE5803,Does not have InterPro domains related to GO:0015267,False
 TTRE5804,Does not have InterPro domains related to GO:0015267,False
-TTRE5805,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003937 - Potassium channel, voltage dependent, KCNQ",True
+TTRE5805,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003937 - Potassium channel, voltage dependent, KCNQ, IPR005821 - Ion transport domain",True
 TTRE5807,Does not have InterPro domains related to GO:0015267,False
 TTRE5808,Does not have InterPro domains related to GO:0015267,False
 TTRE5809,Does not have InterPro domains related to GO:0015267,False
@@ -8462,7 +8462,7 @@ TTRE6232,Does not have InterPro domains related to GO:0015267,False
 TTRE6233,Does not have InterPro domains related to GO:0015267,False
 TTRE6234,Does not have InterPro domains related to GO:0015267,False
 TTRE6235,Does not have InterPro domains related to GO:0015267,False
-TTRE6236,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000131 - ATP synthase, F1 complex, gamma subunit, IPR035968 - ATP synthase, F1 complex, gamma subunit superfamily",True
+TTRE6236,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR035968 - ATP synthase, F1 complex, gamma subunit superfamily, IPR000131 - ATP synthase, F1 complex, gamma subunit",True
 TTRE6237,Does not have InterPro domains related to GO:0015267,False
 TTRE6238,Does not have InterPro domains related to GO:0015267,False
 TTRE6239,Does not have InterPro domains related to GO:0015267,False
@@ -8777,7 +8777,7 @@ TTRE6516,Does not have InterPro domains related to GO:0015267,False
 TTRE6517,Does not have InterPro domains related to GO:0015267,False
 TTRE6518,Does not have InterPro domains related to GO:0015267,False
 TTRE6519,Does not have InterPro domains related to GO:0015267,False
-TTRE652,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003937 - Potassium channel, voltage dependent, KCNQ",True
+TTRE652,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003937 - Potassium channel, voltage dependent, KCNQ, IPR005821 - Ion transport domain",True
 TTRE6520,Does not have InterPro domains related to GO:0015267,False
 TTRE6521,Does not have InterPro domains related to GO:0015267,False
 TTRE6522,Does not have InterPro domains related to GO:0015267,False
@@ -9843,7 +9843,7 @@ TTRE7478,Does not have InterPro domains related to GO:0015267,False
 TTRE7479,Does not have InterPro domains related to GO:0015267,False
 TTRE748,Does not have InterPro domains related to GO:0015267,False
 TTRE7480,Does not have InterPro domains related to GO:0015267,False
-TTRE7481,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain",True
+TTRE7481,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR001508 - Ionotropic glutamate receptor, metazoa",True
 TTRE7482,Does not have InterPro domains related to GO:0015267,False
 TTRE7483,Does not have InterPro domains related to GO:0015267,False
 TTRE7484,Does not have InterPro domains related to GO:0015267,False
@@ -10470,7 +10470,7 @@ TTRE8042,Does not have InterPro domains related to GO:0015267,False
 TTRE8043,Does not have InterPro domains related to GO:0015267,False
 TTRE8044,Does not have InterPro domains related to GO:0015267,False
 TTRE8045,Does not have InterPro domains related to GO:0015267,False
-TTRE8046,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR005821 - Ion transport domain, IPR043203 - Voltage-gated cation channel calcium and sodium",True
+TTRE8046,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR043203 - Voltage-gated cation channel calcium and sodium, IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit",True
 TTRE8047,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR043203 - Voltage-gated cation channel calcium and sodium",True
 TTRE8048,Does not have InterPro domains related to GO:0015267,False
 TTRE8049,Does not have InterPro domains related to GO:0015267,False
@@ -10478,7 +10478,7 @@ TTRE805,Does not have InterPro domains related to GO:0015267,False
 TTRE8050,Does not have InterPro domains related to GO:0015267,False
 TTRE8051,Does not have InterPro domains related to GO:0015267,False
 TTRE8052,Does not have InterPro domains related to GO:0015267,False
-TTRE8053,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
+TTRE8053,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain",True
 TTRE8054,Does not have InterPro domains related to GO:0015267,False
 TTRE8055,Does not have InterPro domains related to GO:0015267,False
 TTRE8056,Does not have InterPro domains related to GO:0015267,False
@@ -10621,7 +10621,7 @@ TTRE8179,Does not have InterPro domains related to GO:0015267,False
 TTRE818,Does not have InterPro domains related to GO:0015267,False
 TTRE8180,Does not have InterPro domains related to GO:0015267,False
 TTRE8181,Does not have InterPro domains related to GO:0015267,False
-TTRE8182,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE8182,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
 TTRE8183,Does not have InterPro domains related to GO:0015267,False
 TTRE8184,Does not have InterPro domains related to GO:0015267,False
 TTRE8185,Does not have InterPro domains related to GO:0015267,False
@@ -10638,7 +10638,7 @@ TTRE8194,Does not have InterPro domains related to GO:0015267,False
 TTRE8195,Does not have InterPro domains related to GO:0015267,False
 TTRE8196,Does not have InterPro domains related to GO:0015267,False
 TTRE8197,Does not have InterPro domains related to GO:0015267,False
-TTRE8198,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR028823 - Sodium leak channel NALCN",True
+TTRE8198,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR028823 - Sodium leak channel NALCN, IPR005821 - Ion transport domain",True
 TTRE8199,Does not have InterPro domains related to GO:0015267,False
 TTRE82,Does not have InterPro domains related to GO:0015267,False
 TTRE820,Does not have InterPro domains related to GO:0015267,False
@@ -10668,7 +10668,7 @@ TTRE8220,Does not have InterPro domains related to GO:0015267,False
 TTRE8221,Does not have InterPro domains related to GO:0015267,False
 TTRE8222,Does not have InterPro domains related to GO:0015267,False
 TTRE8223,Does not have InterPro domains related to GO:0015267,False
-TTRE8224,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
+TTRE8224,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
 TTRE8225,Does not have InterPro domains related to GO:0015267,False
 TTRE8226,Does not have InterPro domains related to GO:0015267,False
 TTRE8227,Does not have InterPro domains related to GO:0015267,False
@@ -10727,7 +10727,7 @@ TTRE8274,Does not have InterPro domains related to GO:0015267,False
 TTRE8275,Does not have InterPro domains related to GO:0015267,False
 TTRE8276,Does not have InterPro domains related to GO:0015267,False
 TTRE8277,Does not have InterPro domains related to GO:0015267,False
-TTRE8278,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE8278,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 TTRE8279,Does not have InterPro domains related to GO:0015267,False
 TTRE828,Does not have InterPro domains related to GO:0015267,False
 TTRE8280,Does not have InterPro domains related to GO:0015267,False
@@ -10927,7 +10927,7 @@ TTRE8454,Does not have InterPro domains related to GO:0015267,False
 TTRE8455,Does not have InterPro domains related to GO:0015267,False
 TTRE8456,Does not have InterPro domains related to GO:0015267,False
 TTRE8457,Does not have InterPro domains related to GO:0015267,False
-TTRE8458,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE8458,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor",True
 TTRE8459,Does not have InterPro domains related to GO:0015267,False
 TTRE846,Does not have InterPro domains related to GO:0015267,False
 TTRE8460,Does not have InterPro domains related to GO:0015267,False
@@ -11045,7 +11045,7 @@ TTRE8560,Does not have InterPro domains related to GO:0015267,False
 TTRE8561,Does not have InterPro domains related to GO:0015267,False
 TTRE8562,Does not have InterPro domains related to GO:0015267,False
 TTRE8563,Does not have InterPro domains related to GO:0015267,False
-TTRE8564,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+TTRE8564,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 TTRE8565,Does not have InterPro domains related to GO:0015267,False
 TTRE8566,Does not have InterPro domains related to GO:0015267,False
 TTRE8567,Does not have InterPro domains related to GO:0015267,False
@@ -11343,7 +11343,7 @@ TTRE8829,Does not have InterPro domains related to GO:0015267,False
 TTRE883,Does not have InterPro domains related to GO:0015267,False
 TTRE8830,Does not have InterPro domains related to GO:0015267,False
 TTRE8831,Does not have InterPro domains related to GO:0015267,False
-TTRE8832,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+TTRE8832,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 TTRE8833,Does not have InterPro domains related to GO:0015267,False
 TTRE8834,Does not have InterPro domains related to GO:0015267,False
 TTRE8835,Does not have InterPro domains related to GO:0015267,False
@@ -11598,7 +11598,7 @@ TTRE9058,Does not have InterPro domains related to GO:0015267,False
 TTRE9059,Does not have InterPro domains related to GO:0015267,False
 TTRE906,Does not have InterPro domains related to GO:0015267,False
 TTRE9060,Does not have InterPro domains related to GO:0015267,False
-TTRE9061,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000699 - RIH domain, IPR005821 - Ion transport domain, IPR000493 - Inositol 1,4,5-trisphosphate receptor",True
+TTRE9061,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR000699 - RIH domain, IPR000493 - Inositol 1,4,5-trisphosphate receptor",True
 TTRE9062,Does not have InterPro domains related to GO:0015267,False
 TTRE9063,Does not have InterPro domains related to GO:0015267,False
 TTRE9064,Does not have InterPro domains related to GO:0015267,False
@@ -11833,7 +11833,7 @@ TTRE9270,Does not have InterPro domains related to GO:0015267,False
 TTRE9271,Does not have InterPro domains related to GO:0015267,False
 TTRE9272,Does not have InterPro domains related to GO:0015267,False
 TTRE9273,Does not have InterPro domains related to GO:0015267,False
-TTRE9274,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
+TTRE9274,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
 TTRE9275,Does not have InterPro domains related to GO:0015267,False
 TTRE9276,Does not have InterPro domains related to GO:0015267,False
 TTRE9277,Does not have InterPro domains related to GO:0015267,False
@@ -11891,7 +11891,7 @@ TTRE9322,Does not have InterPro domains related to GO:0015267,False
 TTRE9323,Does not have InterPro domains related to GO:0015267,False
 TTRE9324,Does not have InterPro domains related to GO:0015267,False
 TTRE9325,Does not have InterPro domains related to GO:0015267,False
-TTRE9326,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv, IPR003974 - Potassium channel, voltage dependent, Kv3",True
+TTRE9326,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003974 - Potassium channel, voltage dependent, Kv3, IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv",True
 TTRE9327,Does not have InterPro domains related to GO:0015267,False
 TTRE9328,Does not have InterPro domains related to GO:0015267,False
 TTRE9329,Does not have InterPro domains related to GO:0015267,False
@@ -12684,7 +12684,7 @@ Wban_00044,Does not have InterPro domains related to GO:0015267,False
 Wban_00045,Does not have InterPro domains related to GO:0015267,False
 Wban_00046,Does not have InterPro domains related to GO:0015267,False
 Wban_00047,Does not have InterPro domains related to GO:0015267,False
-Wban_00048,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_00048,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_00049,Does not have InterPro domains related to GO:0015267,False
 Wban_00050,Does not have InterPro domains related to GO:0015267,False
 Wban_00051,Does not have InterPro domains related to GO:0015267,False
@@ -12801,7 +12801,7 @@ Wban_00161,Does not have InterPro domains related to GO:0015267,False
 Wban_00162,Does not have InterPro domains related to GO:0015267,False
 Wban_00163,Does not have InterPro domains related to GO:0015267,False
 Wban_00164,Does not have InterPro domains related to GO:0015267,False
-Wban_00165,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_00165,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_00166,Does not have InterPro domains related to GO:0015267,False
 Wban_00167,Does not have InterPro domains related to GO:0015267,False
 Wban_00168,Does not have InterPro domains related to GO:0015267,False
@@ -12954,7 +12954,7 @@ Wban_00314,Does not have InterPro domains related to GO:0015267,False
 Wban_00315,Does not have InterPro domains related to GO:0015267,False
 Wban_00316,Does not have InterPro domains related to GO:0015267,False
 Wban_00317,Does not have InterPro domains related to GO:0015267,False
-Wban_00318,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor",True
+Wban_00318,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor",True
 Wban_00319,Does not have InterPro domains related to GO:0015267,False
 Wban_00320,Does not have InterPro domains related to GO:0015267,False
 Wban_00321,Does not have InterPro domains related to GO:0015267,False
@@ -13013,7 +13013,7 @@ Wban_00373,Does not have InterPro domains related to GO:0015267,False
 Wban_00374,Does not have InterPro domains related to GO:0015267,False
 Wban_00375,Does not have InterPro domains related to GO:0015267,False
 Wban_00376,Does not have InterPro domains related to GO:0015267,False
-Wban_00377,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_00377,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_00378,Does not have InterPro domains related to GO:0015267,False
 Wban_00379,Does not have InterPro domains related to GO:0015267,False
 Wban_00380,Does not have InterPro domains related to GO:0015267,False
@@ -13219,7 +13219,7 @@ Wban_00579,Does not have InterPro domains related to GO:0015267,False
 Wban_00580,Does not have InterPro domains related to GO:0015267,False
 Wban_00581,Does not have InterPro domains related to GO:0015267,False
 Wban_00582,Does not have InterPro domains related to GO:0015267,False
-Wban_00583,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_00583,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_00584,Does not have InterPro domains related to GO:0015267,False
 Wban_00585,Does not have InterPro domains related to GO:0015267,False
 Wban_00586,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001873 - Epithelial sodium channel,True
@@ -13263,7 +13263,7 @@ Wban_00623,Does not have InterPro domains related to GO:0015267,False
 Wban_00624,Does not have InterPro domains related to GO:0015267,False
 Wban_00625,Does not have InterPro domains related to GO:0015267,False
 Wban_00626,Does not have InterPro domains related to GO:0015267,False
-Wban_00627,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
+Wban_00627,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
 Wban_00628,Does not have InterPro domains related to GO:0015267,False
 Wban_00629,Does not have InterPro domains related to GO:0015267,False
 Wban_00630,Does not have InterPro domains related to GO:0015267,False
@@ -13341,7 +13341,7 @@ Wban_00701,Does not have InterPro domains related to GO:0015267,False
 Wban_00702,Does not have InterPro domains related to GO:0015267,False
 Wban_00703,Does not have InterPro domains related to GO:0015267,False
 Wban_00704,Does not have InterPro domains related to GO:0015267,False
-Wban_00705,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_00705,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_00706,Does not have InterPro domains related to GO:0015267,False
 Wban_00707,Does not have InterPro domains related to GO:0015267,False
 Wban_00708,Does not have InterPro domains related to GO:0015267,False
@@ -13388,7 +13388,7 @@ Wban_00748,Does not have InterPro domains related to GO:0015267,False
 Wban_00749,Does not have InterPro domains related to GO:0015267,False
 Wban_00750,Does not have InterPro domains related to GO:0015267,False
 Wban_00751,Does not have InterPro domains related to GO:0015267,False
-Wban_00752,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001873 - Epithelial sodium channel, IPR004726 - Degenerin, IPR020903 - Epithelial sodium channel, conserved site",True
+Wban_00752,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR004726 - Degenerin, IPR020903 - Epithelial sodium channel, conserved site, IPR001873 - Epithelial sodium channel",True
 Wban_00753,Does not have InterPro domains related to GO:0015267,False
 Wban_00754,Does not have InterPro domains related to GO:0015267,False
 Wban_00755,Does not have InterPro domains related to GO:0015267,False
@@ -13942,7 +13942,7 @@ Wban_01302,Does not have InterPro domains related to GO:0015267,False
 Wban_01303,Does not have InterPro domains related to GO:0015267,False
 Wban_01304,Does not have InterPro domains related to GO:0015267,False
 Wban_01305,Does not have InterPro domains related to GO:0015267,False
-Wban_01306,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_01306,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_01307,Does not have InterPro domains related to GO:0015267,False
 Wban_01308,Does not have InterPro domains related to GO:0015267,False
 Wban_01309,Does not have InterPro domains related to GO:0015267,False
@@ -13964,7 +13964,7 @@ Wban_01324,Does not have InterPro domains related to GO:0015267,False
 Wban_01325,Does not have InterPro domains related to GO:0015267,False
 Wban_01326,Does not have InterPro domains related to GO:0015267,False
 Wban_01327,Does not have InterPro domains related to GO:0015267,False
-Wban_01328,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003975 - Potassium channel, voltage dependent, Kv4, IPR005821 - Ion transport domain",True
+Wban_01328,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv, IPR003975 - Potassium channel, voltage dependent, Kv4",True
 Wban_01329,Does not have InterPro domains related to GO:0015267,False
 Wban_01330,Does not have InterPro domains related to GO:0015267,False
 Wban_01331,Does not have InterPro domains related to GO:0015267,False
@@ -14049,7 +14049,7 @@ Wban_01409,Does not have InterPro domains related to GO:0015267,False
 Wban_01410,Does not have InterPro domains related to GO:0015267,False
 Wban_01411,Does not have InterPro domains related to GO:0015267,False
 Wban_01412,Does not have InterPro domains related to GO:0015267,False
-Wban_01413,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR005445 - Voltage-dependent calcium channel, T-type, alpha-1 subunit, IPR005821 - Ion transport domain, IPR043203 - Voltage-gated cation channel calcium and sodium",True
+Wban_01413,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005445 - Voltage-dependent calcium channel, T-type, alpha-1 subunit, IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR043203 - Voltage-gated cation channel calcium and sodium, IPR005821 - Ion transport domain",True
 Wban_01414,Does not have InterPro domains related to GO:0015267,False
 Wban_01415,Does not have InterPro domains related to GO:0015267,False
 Wban_01416,Does not have InterPro domains related to GO:0015267,False
@@ -14285,7 +14285,7 @@ Wban_01645,Does not have InterPro domains related to GO:0015267,False
 Wban_01646,Does not have InterPro domains related to GO:0015267,False
 Wban_01647,Does not have InterPro domains related to GO:0015267,False
 Wban_01648,Does not have InterPro domains related to GO:0015267,False
-Wban_01649,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR004726 - Degenerin, IPR001873 - Epithelial sodium channel, IPR020903 - Epithelial sodium channel, conserved site",True
+Wban_01649,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001873 - Epithelial sodium channel, IPR020903 - Epithelial sodium channel, conserved site, IPR004726 - Degenerin",True
 Wban_01650,Does not have InterPro domains related to GO:0015267,False
 Wban_01651,Does not have InterPro domains related to GO:0015267,False
 Wban_01652,Does not have InterPro domains related to GO:0015267,False
@@ -14297,7 +14297,7 @@ Wban_01657,Does not have InterPro domains related to GO:0015267,False
 Wban_01658,Does not have InterPro domains related to GO:0015267,False
 Wban_01659,Does not have InterPro domains related to GO:0015267,False
 Wban_01660,Does not have InterPro domains related to GO:0015267,False
-Wban_01661,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit, IPR005821 - Ion transport domain",True
+Wban_01661,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR002077 - Voltage-dependent calcium channel, alpha-1 subunit",True
 Wban_01662,Does not have InterPro domains related to GO:0015267,False
 Wban_01663,Does not have InterPro domains related to GO:0015267,False
 Wban_01664,Does not have InterPro domains related to GO:0015267,False
@@ -14518,7 +14518,7 @@ Wban_01878,Does not have InterPro domains related to GO:0015267,False
 Wban_01879,Does not have InterPro domains related to GO:0015267,False
 Wban_01880,Does not have InterPro domains related to GO:0015267,False
 Wban_01881,Does not have InterPro domains related to GO:0015267,False
-Wban_01882,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_01882,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_01883,Does not have InterPro domains related to GO:0015267,False
 Wban_01884,Does not have InterPro domains related to GO:0015267,False
 Wban_01885,Does not have InterPro domains related to GO:0015267,False
@@ -15014,7 +15014,7 @@ Wban_02374,Does not have InterPro domains related to GO:0015267,False
 Wban_02375,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_02376,Does not have InterPro domains related to GO:0015267,False
 Wban_02377,Does not have InterPro domains related to GO:0015267,False
-Wban_02378,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_02378,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_02379,Does not have InterPro domains related to GO:0015267,False
 Wban_02380,Does not have InterPro domains related to GO:0015267,False
 Wban_02381,Does not have InterPro domains related to GO:0015267,False
@@ -15164,7 +15164,7 @@ Wban_02524,Does not have InterPro domains related to GO:0015267,False
 Wban_02525,Does not have InterPro domains related to GO:0015267,False
 Wban_02526,Does not have InterPro domains related to GO:0015267,False
 Wban_02527,Does not have InterPro domains related to GO:0015267,False
-Wban_02528,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003937 - Potassium channel, voltage dependent, KCNQ, IPR005821 - Ion transport domain",True
+Wban_02528,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003937 - Potassium channel, voltage dependent, KCNQ",True
 Wban_02529,Does not have InterPro domains related to GO:0015267,False
 Wban_02530,Does not have InterPro domains related to GO:0015267,False
 Wban_02531,Does not have InterPro domains related to GO:0015267,False
@@ -15215,7 +15215,7 @@ Wban_02575,Does not have InterPro domains related to GO:0015267,False
 Wban_02576,Does not have InterPro domains related to GO:0015267,False
 Wban_02577,Does not have InterPro domains related to GO:0015267,False
 Wban_02578,Does not have InterPro domains related to GO:0015267,False
-Wban_02579,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_02579,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_02580,Does not have InterPro domains related to GO:0015267,False
 Wban_02581,Does not have InterPro domains related to GO:0015267,False
 Wban_02582,Does not have InterPro domains related to GO:0015267,False
@@ -15534,7 +15534,7 @@ Wban_02894,Does not have InterPro domains related to GO:0015267,False
 Wban_02895,Does not have InterPro domains related to GO:0015267,False
 Wban_02896,Does not have InterPro domains related to GO:0015267,False
 Wban_02897,Does not have InterPro domains related to GO:0015267,False
-Wban_02898,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_02898,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_02899,Does not have InterPro domains related to GO:0015267,False
 Wban_02900,Does not have InterPro domains related to GO:0015267,False
 Wban_02901,Does not have InterPro domains related to GO:0015267,False
@@ -15699,7 +15699,7 @@ Wban_03059,Does not have InterPro domains related to GO:0015267,False
 Wban_03060,Does not have InterPro domains related to GO:0015267,False
 Wban_03061,Does not have InterPro domains related to GO:0015267,False
 Wban_03062,Does not have InterPro domains related to GO:0015267,False
-Wban_03063,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002153 - Transient receptor potential channel, canonical, IPR005821 - Ion transport domain",True
+Wban_03063,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR002153 - Transient receptor potential channel, canonical",True
 Wban_03064,Does not have InterPro domains related to GO:0015267,False
 Wban_03065,Does not have InterPro domains related to GO:0015267,False
 Wban_03066,Does not have InterPro domains related to GO:0015267,False
@@ -15745,9 +15745,9 @@ Wban_03105,Does not have InterPro domains related to GO:0015267,False
 Wban_03106,Does not have InterPro domains related to GO:0015267,False
 Wban_03107,Does not have InterPro domains related to GO:0015267,False
 Wban_03108,Does not have InterPro domains related to GO:0015267,False
-Wban_03109,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_03109,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 Wban_03110,Does not have InterPro domains related to GO:0015267,False
-Wban_03111,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR001390 - Gamma-aminobutyric-acid A receptor, alpha subunit, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_03111,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel, IPR001390 - Gamma-aminobutyric-acid A receptor, alpha subunit, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_03112,Does not have InterPro domains related to GO:0015267,False
 Wban_03113,Does not have InterPro domains related to GO:0015267,False
 Wban_03114,Does not have InterPro domains related to GO:0015267,False
@@ -15862,7 +15862,7 @@ Wban_03222,Does not have InterPro domains related to GO:0015267,False
 Wban_03223,Does not have InterPro domains related to GO:0015267,False
 Wban_03224,Does not have InterPro domains related to GO:0015267,False
 Wban_03225,Does not have InterPro domains related to GO:0015267,False
-Wban_03226,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG, IPR003967 - Potassium channel, voltage-dependent, ERG",True
+Wban_03226,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG, IPR005821 - Ion transport domain, IPR003967 - Potassium channel, voltage-dependent, ERG",True
 Wban_03227,Does not have InterPro domains related to GO:0015267,False
 Wban_03228,Does not have InterPro domains related to GO:0015267,False
 Wban_03229,Does not have InterPro domains related to GO:0015267,False
@@ -15877,7 +15877,7 @@ Wban_03237,Does not have InterPro domains related to GO:0015267,False
 Wban_03238,Does not have InterPro domains related to GO:0015267,False
 Wban_03239,Does not have InterPro domains related to GO:0015267,False
 Wban_03240,Does not have InterPro domains related to GO:0015267,False
-Wban_03241,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_03241,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 Wban_03242,Does not have InterPro domains related to GO:0015267,False
 Wban_03243,Does not have InterPro domains related to GO:0015267,False
 Wban_03244,Does not have InterPro domains related to GO:0015267,False
@@ -16041,7 +16041,7 @@ Wban_03401,Does not have InterPro domains related to GO:0015267,False
 Wban_03402,Does not have InterPro domains related to GO:0015267,False
 Wban_03403,Does not have InterPro domains related to GO:0015267,False
 Wban_03404,Does not have InterPro domains related to GO:0015267,False
-Wban_03405,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+Wban_03405,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_03406,Does not have InterPro domains related to GO:0015267,False
 Wban_03407,Does not have InterPro domains related to GO:0015267,False
 Wban_03408,Does not have InterPro domains related to GO:0015267,False
@@ -16204,7 +16204,7 @@ Wban_03564,Does not have InterPro domains related to GO:0015267,False
 Wban_03565,Does not have InterPro domains related to GO:0015267,False
 Wban_03566,Does not have InterPro domains related to GO:0015267,False
 Wban_03567,Does not have InterPro domains related to GO:0015267,False
-Wban_03568,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR001508 - Ionotropic glutamate receptor, metazoa",True
+Wban_03568,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain, IPR001320 - Ionotropic glutamate receptor, C-terminal",True
 Wban_03569,Does not have InterPro domains related to GO:0015267,False
 Wban_03570,Does not have InterPro domains related to GO:0015267,False
 Wban_03571,Does not have InterPro domains related to GO:0015267,False
@@ -16332,7 +16332,7 @@ Wban_03692,Does not have InterPro domains related to GO:0015267,False
 Wban_03693,Does not have InterPro domains related to GO:0015267,False
 Wban_03694,Does not have InterPro domains related to GO:0015267,False
 Wban_03695,Does not have InterPro domains related to GO:0015267,False
-Wban_03696,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR009460 - Ryanodine Receptor TM 4-6, IPR013333 - Ryanodine receptor, IPR005821 - Ion transport domain, IPR000699 - RIH domain",True
+Wban_03696,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR013333 - Ryanodine receptor, IPR009460 - Ryanodine Receptor TM 4-6, IPR005821 - Ion transport domain, IPR000699 - RIH domain",True
 Wban_03697,Does not have InterPro domains related to GO:0015267,False
 Wban_03698,Does not have InterPro domains related to GO:0015267,False
 Wban_03699,Does not have InterPro domains related to GO:0015267,False
@@ -16375,7 +16375,7 @@ Wban_03735,Does not have InterPro domains related to GO:0015267,False
 Wban_03736,Does not have InterPro domains related to GO:0015267,False
 Wban_03737,Does not have InterPro domains related to GO:0015267,False
 Wban_03738,Does not have InterPro domains related to GO:0015267,False
-Wban_03739,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR028823 - Sodium leak channel NALCN, IPR005821 - Ion transport domain",True
+Wban_03739,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR028823 - Sodium leak channel NALCN",True
 Wban_03740,Does not have InterPro domains related to GO:0015267,False
 Wban_03741,Does not have InterPro domains related to GO:0015267,False
 Wban_03742,Does not have InterPro domains related to GO:0015267,False
@@ -16411,12 +16411,12 @@ Wban_03771,Does not have InterPro domains related to GO:0015267,False
 Wban_03772,Does not have InterPro domains related to GO:0015267,False
 Wban_03773,Does not have InterPro domains related to GO:0015267,False
 Wban_03774,Does not have InterPro domains related to GO:0015267,False
-Wban_03775,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
+Wban_03775,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
 Wban_03776,Does not have InterPro domains related to GO:0015267,False
 Wban_03777,Does not have InterPro domains related to GO:0015267,False
 Wban_03778,Does not have InterPro domains related to GO:0015267,False
 Wban_03779,Does not have InterPro domains related to GO:0015267,False
-Wban_03780,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
+Wban_03780,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
 Wban_03781,Does not have InterPro domains related to GO:0015267,False
 Wban_03782,Does not have InterPro domains related to GO:0015267,False
 Wban_03783,Does not have InterPro domains related to GO:0015267,False
@@ -16450,7 +16450,7 @@ Wban_03810,Does not have InterPro domains related to GO:0015267,False
 Wban_03811,Does not have InterPro domains related to GO:0015267,False
 Wban_03812,Does not have InterPro domains related to GO:0015267,False
 Wban_03813,Does not have InterPro domains related to GO:0015267,False
-Wban_03814,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_03814,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_03815,Does not have InterPro domains related to GO:0015267,False
 Wban_03816,Does not have InterPro domains related to GO:0015267,False
 Wban_03817,Does not have InterPro domains related to GO:0015267,False
@@ -17006,7 +17006,7 @@ Wban_04366,Does not have InterPro domains related to GO:0015267,False
 Wban_04367,Does not have InterPro domains related to GO:0015267,False
 Wban_04368,Does not have InterPro domains related to GO:0015267,False
 Wban_04369,Does not have InterPro domains related to GO:0015267,False
-Wban_04370,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_04370,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_04371,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily,True
 Wban_04372,Does not have InterPro domains related to GO:0015267,False
 Wban_04373,Does not have InterPro domains related to GO:0015267,False
@@ -17109,7 +17109,7 @@ Wban_04469,Does not have InterPro domains related to GO:0015267,False
 Wban_04470,Does not have InterPro domains related to GO:0015267,False
 Wban_04471,Does not have InterPro domains related to GO:0015267,False
 Wban_04472,Does not have InterPro domains related to GO:0015267,False
-Wban_04473,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_04473,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_04474,Does not have InterPro domains related to GO:0015267,False
 Wban_04475,Does not have InterPro domains related to GO:0015267,False
 Wban_04476,Does not have InterPro domains related to GO:0015267,False
@@ -17224,7 +17224,7 @@ Wban_04584,Does not have InterPro domains related to GO:0015267,False
 Wban_04585,Does not have InterPro domains related to GO:0015267,False
 Wban_04586,Does not have InterPro domains related to GO:0015267,False
 Wban_04587,Does not have InterPro domains related to GO:0015267,False
-Wban_04588,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001508 - Ionotropic glutamate receptor, metazoa, IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain",True
+Wban_04588,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001320 - Ionotropic glutamate receptor, C-terminal, IPR001508 - Ionotropic glutamate receptor, metazoa, IPR019594 - Ionotropic glutamate receptor, L-glutamate and glycine-binding domain",True
 Wban_04589,Does not have InterPro domains related to GO:0015267,False
 Wban_04590,Does not have InterPro domains related to GO:0015267,False
 Wban_04591,Does not have InterPro domains related to GO:0015267,False
@@ -17330,10 +17330,10 @@ Wban_04690,Does not have InterPro domains related to GO:0015267,False
 Wban_04691,Does not have InterPro domains related to GO:0015267,False
 Wban_04692,Does not have InterPro domains related to GO:0015267,False
 Wban_04693,Does not have InterPro domains related to GO:0015267,False
-Wban_04694,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+Wban_04694,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_04695,Does not have InterPro domains related to GO:0015267,False
 Wban_04696,Does not have InterPro domains related to GO:0015267,False
-Wban_04697,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003971 - Potassium channel, voltage dependent, Kv9, IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv",True
+Wban_04697,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003971 - Potassium channel, voltage dependent, Kv9, IPR005821 - Ion transport domain",True
 Wban_04698,Does not have InterPro domains related to GO:0015267,False
 Wban_04699,Does not have InterPro domains related to GO:0015267,False
 Wban_04700,Does not have InterPro domains related to GO:0015267,False
@@ -17382,7 +17382,7 @@ Wban_04742,Does not have InterPro domains related to GO:0015267,False
 Wban_04743,Does not have InterPro domains related to GO:0015267,False
 Wban_04744,Does not have InterPro domains related to GO:0015267,False
 Wban_04745,Does not have InterPro domains related to GO:0015267,False
-Wban_04746,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_04746,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor",True
 Wban_04747,Does not have InterPro domains related to GO:0015267,False
 Wban_04748,Does not have InterPro domains related to GO:0015267,False
 Wban_04749,Does not have InterPro domains related to GO:0015267,False
@@ -17442,7 +17442,7 @@ Wban_04802,Does not have InterPro domains related to GO:0015267,False
 Wban_04803,Does not have InterPro domains related to GO:0015267,False
 Wban_04804,Does not have InterPro domains related to GO:0015267,False
 Wban_04805,Does not have InterPro domains related to GO:0015267,False
-Wban_04806,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_04806,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_04807,Does not have InterPro domains related to GO:0015267,False
 Wban_04808,Does not have InterPro domains related to GO:0015267,False
 Wban_04809,Does not have InterPro domains related to GO:0015267,False
@@ -17488,7 +17488,7 @@ Wban_04848,Does not have InterPro domains related to GO:0015267,False
 Wban_04849,Does not have InterPro domains related to GO:0015267,False
 Wban_04850,Does not have InterPro domains related to GO:0015267,False
 Wban_04851,Does not have InterPro domains related to GO:0015267,False
-Wban_04852,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_04852,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_04853,Does not have InterPro domains related to GO:0015267,False
 Wban_04854,Does not have InterPro domains related to GO:0015267,False
 Wban_04855,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR001873 - Epithelial sodium channel,True
@@ -17582,7 +17582,7 @@ Wban_04942,Does not have InterPro domains related to GO:0015267,False
 Wban_04943,Does not have InterPro domains related to GO:0015267,False
 Wban_04944,Does not have InterPro domains related to GO:0015267,False
 Wban_04945,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR021134 - Bestrophin-like,True
-Wban_04946,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_04946,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_04947,Does not have InterPro domains related to GO:0015267,False
 Wban_04948,Does not have InterPro domains related to GO:0015267,False
 Wban_04949,Does not have InterPro domains related to GO:0015267,False
@@ -17678,7 +17678,7 @@ Wban_05038,Does not have InterPro domains related to GO:0015267,False
 Wban_05039,Does not have InterPro domains related to GO:0015267,False
 Wban_05040,Does not have InterPro domains related to GO:0015267,False
 Wban_05041,Does not have InterPro domains related to GO:0015267,False
-Wban_05042,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_05042,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 Wban_05043,Does not have InterPro domains related to GO:0015267,False
 Wban_05044,Does not have InterPro domains related to GO:0015267,False
 Wban_05045,Does not have InterPro domains related to GO:0015267,False
@@ -17705,7 +17705,7 @@ Wban_05065,Does not have InterPro domains related to GO:0015267,False
 Wban_05066,Does not have InterPro domains related to GO:0015267,False
 Wban_05067,Does not have InterPro domains related to GO:0015267,False
 Wban_05068,Does not have InterPro domains related to GO:0015267,False
-Wban_05069,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR003971 - Potassium channel, voltage dependent, Kv9, IPR005821 - Ion transport domain",True
+Wban_05069,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003971 - Potassium channel, voltage dependent, Kv9, IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain",True
 Wban_05070,Does not have InterPro domains related to GO:0015267,False
 Wban_05071,Does not have InterPro domains related to GO:0015267,False
 Wban_05072,Does not have InterPro domains related to GO:0015267,False
@@ -17901,7 +17901,7 @@ Wban_05261,Does not have InterPro domains related to GO:0015267,False
 Wban_05262,Does not have InterPro domains related to GO:0015267,False
 Wban_05263,Does not have InterPro domains related to GO:0015267,False
 Wban_05264,Does not have InterPro domains related to GO:0015267,False
-Wban_05265,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
+Wban_05265,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
 Wban_05266,Does not have InterPro domains related to GO:0015267,False
 Wban_05267,Does not have InterPro domains related to GO:0015267,False
 Wban_05268,Does not have InterPro domains related to GO:0015267,False
@@ -17937,7 +17937,7 @@ Wban_05297,Does not have InterPro domains related to GO:0015267,False
 Wban_05298,Does not have InterPro domains related to GO:0015267,False
 Wban_05299,Does not have InterPro domains related to GO:0015267,False
 Wban_05300,Does not have InterPro domains related to GO:0015267,False
-Wban_05301,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_05301,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_05302,Does not have InterPro domains related to GO:0015267,False
 Wban_05303,Does not have InterPro domains related to GO:0015267,False
 Wban_05304,Does not have InterPro domains related to GO:0015267,False
@@ -18119,7 +18119,7 @@ Wban_05479,Does not have InterPro domains related to GO:0015267,False
 Wban_05480,Does not have InterPro domains related to GO:0015267,False
 Wban_05481,Does not have InterPro domains related to GO:0015267,False
 Wban_05482,Does not have InterPro domains related to GO:0015267,False
-Wban_05483,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG, IPR003949 - Potassium channel, voltage-dependent, EAG",True
+Wban_05483,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003949 - Potassium channel, voltage-dependent, EAG, IPR003938 - Potassium channel, voltage-dependent, EAG/ELK/ERG",True
 Wban_05484,Does not have InterPro domains related to GO:0015267,False
 Wban_05485,Does not have InterPro domains related to GO:0015267,False
 Wban_05486,Does not have InterPro domains related to GO:0015267,False
@@ -18496,7 +18496,7 @@ Wban_05856,Does not have InterPro domains related to GO:0015267,False
 Wban_05857,Does not have InterPro domains related to GO:0015267,False
 Wban_05858,Does not have InterPro domains related to GO:0015267,False
 Wban_05859,Does not have InterPro domains related to GO:0015267,False
-Wban_05860,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_05860,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_05861,Does not have InterPro domains related to GO:0015267,False
 Wban_05862,Does not have InterPro domains related to GO:0015267,False
 Wban_05863,Does not have InterPro domains related to GO:0015267,False
@@ -18588,7 +18588,7 @@ Wban_05948,Does not have InterPro domains related to GO:0015267,False
 Wban_05949,Does not have InterPro domains related to GO:0015267,False
 Wban_05950,Does not have InterPro domains related to GO:0015267,False
 Wban_05951,Does not have InterPro domains related to GO:0015267,False
-Wban_05952,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_05952,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_05953,Does not have InterPro domains related to GO:0015267,False
 Wban_05954,Does not have InterPro domains related to GO:0015267,False
 Wban_05955,Does not have InterPro domains related to GO:0015267,False
@@ -18604,7 +18604,7 @@ Wban_05964,Does not have InterPro domains related to GO:0015267,False
 Wban_05965,Does not have InterPro domains related to GO:0015267,False
 Wban_05966,Does not have InterPro domains related to GO:0015267,False
 Wban_05967,Does not have InterPro domains related to GO:0015267,False
-Wban_05968,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_05968,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_05969,Does not have InterPro domains related to GO:0015267,False
 Wban_05970,Does not have InterPro domains related to GO:0015267,False
 Wban_05971,Does not have InterPro domains related to GO:0015267,False
@@ -18659,7 +18659,7 @@ Wban_06019,Does not have InterPro domains related to GO:0015267,False
 Wban_06020,Does not have InterPro domains related to GO:0015267,False
 Wban_06021,Does not have InterPro domains related to GO:0015267,False
 Wban_06022,Does not have InterPro domains related to GO:0015267,False
-Wban_06023,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv, IPR003974 - Potassium channel, voltage dependent, Kv3",True
+Wban_06023,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003974 - Potassium channel, voltage dependent, Kv3, IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain",True
 Wban_06024,Does not have InterPro domains related to GO:0015267,False
 Wban_06025,Does not have InterPro domains related to GO:0015267,False
 Wban_06026,Does not have InterPro domains related to GO:0015267,False
@@ -18675,7 +18675,7 @@ Wban_06035,Does not have InterPro domains related to GO:0015267,False
 Wban_06036,Does not have InterPro domains related to GO:0015267,False
 Wban_06037,Does not have InterPro domains related to GO:0015267,False
 Wban_06038,Does not have InterPro domains related to GO:0015267,False
-Wban_06039,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR024862 - Transient receptor potential cation channel subfamily V, IPR005821 - Ion transport domain",True
+Wban_06039,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR024862 - Transient receptor potential cation channel subfamily V",True
 Wban_06040,Does not have InterPro domains related to GO:0015267,False
 Wban_06041,Does not have InterPro domains related to GO:0015267,False
 Wban_06042,Does not have InterPro domains related to GO:0015267,False
@@ -18718,7 +18718,7 @@ Wban_06078,Does not have InterPro domains related to GO:0015267,False
 Wban_06079,Does not have InterPro domains related to GO:0015267,False
 Wban_06080,Does not have InterPro domains related to GO:0015267,False
 Wban_06081,Does not have InterPro domains related to GO:0015267,False
-Wban_06082,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_06082,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_06083,Does not have InterPro domains related to GO:0015267,False
 Wban_06084,Does not have InterPro domains related to GO:0015267,False
 Wban_06085,Does not have InterPro domains related to GO:0015267,False
@@ -19075,13 +19075,13 @@ Wban_06435,Does not have InterPro domains related to GO:0015267,False
 Wban_06436,Does not have InterPro domains related to GO:0015267,False
 Wban_06437,Does not have InterPro domains related to GO:0015267,False
 Wban_06438,Does not have InterPro domains related to GO:0015267,False
-Wban_06439,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003974 - Potassium channel, voltage dependent, Kv3, IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain",True
-Wban_06440,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv",True
+Wban_06439,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003974 - Potassium channel, voltage dependent, Kv3, IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv",True
+Wban_06440,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain",True
 Wban_06441,Does not have InterPro domains related to GO:0015267,False
 Wban_06442,Does not have InterPro domains related to GO:0015267,False
 Wban_06443,Does not have InterPro domains related to GO:0015267,False
 Wban_06444,Does not have InterPro domains related to GO:0015267,False
-Wban_06445,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003968 - Potassium channel, voltage dependent, Kv, IPR005821 - Ion transport domain, IPR003972 - Potassium channel, voltage dependent, Kv1",True
+Wban_06445,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR003968 - Potassium channel, voltage dependent, Kv, IPR003972 - Potassium channel, voltage dependent, Kv1",True
 Wban_06446,Does not have InterPro domains related to GO:0015267,False
 Wban_06447,Does not have InterPro domains related to GO:0015267,False
 Wban_06448,Does not have InterPro domains related to GO:0015267,False
@@ -19325,7 +19325,7 @@ Wban_06685,Does not have InterPro domains related to GO:0015267,False
 Wban_06686,Does not have InterPro domains related to GO:0015267,False
 Wban_06687,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000425 - Major intrinsic protein,True
 Wban_06688,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000425 - Major intrinsic protein,True
-Wban_06689,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR024041 - Ammonium transporter AmtB-like domain, IPR018047 - Ammonium transporter, conserved site, IPR001905 - Ammonium transporter",True
+Wban_06689,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR018047 - Ammonium transporter, conserved site, IPR024041 - Ammonium transporter AmtB-like domain, IPR001905 - Ammonium transporter",True
 Wban_06690,Does not have InterPro domains related to GO:0015267,False
 Wban_06691,Does not have InterPro domains related to GO:0015267,False
 Wban_06692,Does not have InterPro domains related to GO:0015267,False
@@ -19333,7 +19333,7 @@ Wban_06693,Does not have InterPro domains related to GO:0015267,False
 Wban_06694,Does not have InterPro domains related to GO:0015267,False
 Wban_06695,Does not have InterPro domains related to GO:0015267,False
 Wban_06696,Does not have InterPro domains related to GO:0015267,False
-Wban_06697,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_06697,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_06698,Does not have InterPro domains related to GO:0015267,False
 Wban_06699,Does not have InterPro domains related to GO:0015267,False
 Wban_06700,Does not have InterPro domains related to GO:0015267,False
@@ -19556,8 +19556,8 @@ Wban_06916,Does not have InterPro domains related to GO:0015267,False
 Wban_06917,Does not have InterPro domains related to GO:0015267,False
 Wban_06918,Does not have InterPro domains related to GO:0015267,False
 Wban_06919,Does not have InterPro domains related to GO:0015267,False
-Wban_06920,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
-Wban_06921,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_06920,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_06921,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_06922,Does not have InterPro domains related to GO:0015267,False
 Wban_06923,Does not have InterPro domains related to GO:0015267,False
 Wban_06924,Does not have InterPro domains related to GO:0015267,False
@@ -19618,7 +19618,7 @@ Wban_06978,Does not have InterPro domains related to GO:0015267,False
 Wban_06979,Does not have InterPro domains related to GO:0015267,False
 Wban_06980,Does not have InterPro domains related to GO:0015267,False
 Wban_06981,Does not have InterPro domains related to GO:0015267,False
-Wban_06982,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+Wban_06982,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_06983,Does not have InterPro domains related to GO:0015267,False
 Wban_06984,Does not have InterPro domains related to GO:0015267,False
 Wban_06985,Does not have InterPro domains related to GO:0015267,False
@@ -19724,7 +19724,7 @@ Wban_07084,Does not have InterPro domains related to GO:0015267,False
 Wban_07085,Does not have InterPro domains related to GO:0015267,False
 Wban_07086,Does not have InterPro domains related to GO:0015267,False
 Wban_07087,Does not have InterPro domains related to GO:0015267,False
-Wban_07088,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_07088,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_07089,Does not have InterPro domains related to GO:0015267,False
 Wban_07090,Does not have InterPro domains related to GO:0015267,False
 Wban_07091,Does not have InterPro domains related to GO:0015267,False
@@ -19797,7 +19797,7 @@ Wban_07157,Does not have InterPro domains related to GO:0015267,False
 Wban_07158,Does not have InterPro domains related to GO:0015267,False
 Wban_07159,Does not have InterPro domains related to GO:0015267,False
 Wban_07160,Does not have InterPro domains related to GO:0015267,False
-Wban_07161,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_07161,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_07162,Does not have InterPro domains related to GO:0015267,False
 Wban_07163,Does not have InterPro domains related to GO:0015267,False
 Wban_07164,Does not have InterPro domains related to GO:0015267,False
@@ -19850,7 +19850,7 @@ Wban_07210,Does not have InterPro domains related to GO:0015267,False
 Wban_07211,Does not have InterPro domains related to GO:0015267,False
 Wban_07212,Does not have InterPro domains related to GO:0015267,False
 Wban_07213,Does not have InterPro domains related to GO:0015267,False
-Wban_07214,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_07214,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_07215,Does not have InterPro domains related to GO:0015267,False
 Wban_07216,Does not have InterPro domains related to GO:0015267,False
 Wban_07217,Does not have InterPro domains related to GO:0015267,False
@@ -20356,7 +20356,7 @@ Wban_07716,Does not have InterPro domains related to GO:0015267,False
 Wban_07717,Does not have InterPro domains related to GO:0015267,False
 Wban_07718,Does not have InterPro domains related to GO:0015267,False
 Wban_07719,Does not have InterPro domains related to GO:0015267,False
-Wban_07720,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_07720,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_07721,Does not have InterPro domains related to GO:0015267,False
 Wban_07722,Does not have InterPro domains related to GO:0015267,False
 Wban_07723,Does not have InterPro domains related to GO:0015267,False
@@ -20373,7 +20373,7 @@ Wban_07733,Does not have InterPro domains related to GO:0015267,False
 Wban_07734,Does not have InterPro domains related to GO:0015267,False
 Wban_07735,Does not have InterPro domains related to GO:0015267,False
 Wban_07736,Does not have InterPro domains related to GO:0015267,False
-Wban_07737,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_07737,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_07738,Does not have InterPro domains related to GO:0015267,False
 Wban_07739,Does not have InterPro domains related to GO:0015267,False
 Wban_07740,Does not have InterPro domains related to GO:0015267,False
@@ -20681,7 +20681,7 @@ Wban_08041,Does not have InterPro domains related to GO:0015267,False
 Wban_08042,Does not have InterPro domains related to GO:0015267,False
 Wban_08043,Does not have InterPro domains related to GO:0015267,False
 Wban_08044,Does not have InterPro domains related to GO:0015267,False
-Wban_08045,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_08045,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor",True
 Wban_08046,Does not have InterPro domains related to GO:0015267,False
 Wban_08047,Does not have InterPro domains related to GO:0015267,False
 Wban_08048,Does not have InterPro domains related to GO:0015267,False
@@ -20718,7 +20718,7 @@ Wban_08078,Does not have InterPro domains related to GO:0015267,False
 Wban_08079,Does not have InterPro domains related to GO:0015267,False
 Wban_08080,Does not have InterPro domains related to GO:0015267,False
 Wban_08081,Does not have InterPro domains related to GO:0015267,False
-Wban_08082,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_08082,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_08083,Does not have InterPro domains related to GO:0015267,False
 Wban_08084,Does not have InterPro domains related to GO:0015267,False
 Wban_08085,Does not have InterPro domains related to GO:0015267,False
@@ -21075,7 +21075,7 @@ Wban_08435,Does not have InterPro domains related to GO:0015267,False
 Wban_08436,Does not have InterPro domains related to GO:0015267,False
 Wban_08437,Does not have InterPro domains related to GO:0015267,False
 Wban_08438,Does not have InterPro domains related to GO:0015267,False
-Wban_08439,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor",True
+Wban_08439,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_08440,Does not have InterPro domains related to GO:0015267,False
 Wban_08441,Does not have InterPro domains related to GO:0015267,False
 Wban_08442,Does not have InterPro domains related to GO:0015267,False
@@ -21474,7 +21474,7 @@ Wban_08834,Does not have InterPro domains related to GO:0015267,False
 Wban_08835,Does not have InterPro domains related to GO:0015267,False
 Wban_08836,Does not have InterPro domains related to GO:0015267,False
 Wban_08837,Does not have InterPro domains related to GO:0015267,False
-Wban_08838,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_08838,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel",True
 Wban_08839,Does not have InterPro domains related to GO:0015267,False
 Wban_08840,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain,True
 Wban_08841,Does not have InterPro domains related to GO:0015267,False
@@ -21498,7 +21498,7 @@ Wban_08858,Does not have InterPro domains related to GO:0015267,False
 Wban_08859,Does not have InterPro domains related to GO:0015267,False
 Wban_08860,Does not have InterPro domains related to GO:0015267,False
 Wban_08861,Does not have InterPro domains related to GO:0015267,False
-Wban_08862,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_08862,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
 Wban_08863,Does not have InterPro domains related to GO:0015267,False
 Wban_08864,Does not have InterPro domains related to GO:0015267,False
 Wban_08865,Does not have InterPro domains related to GO:0015267,False
@@ -21512,7 +21512,7 @@ Wban_08872,Does not have InterPro domains related to GO:0015267,False
 Wban_08873,Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR027272 - Piezo family,True
 Wban_08874,Does not have InterPro domains related to GO:0015267,False
 Wban_08875,Does not have InterPro domains related to GO:0015267,False
-Wban_08876,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR004178 - Calmodulin-binding domain, IPR036122 - SK, calmodulin-binding domain superfamily, IPR015449 - Potassium channel, calcium-activated, SK",True
+Wban_08876,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036122 - SK, calmodulin-binding domain superfamily, IPR015449 - Potassium channel, calcium-activated, SK, IPR004178 - Calmodulin-binding domain",True
 Wban_08877,Does not have InterPro domains related to GO:0015267,False
 Wban_08878,Does not have InterPro domains related to GO:0015267,False
 Wban_08879,Does not have InterPro domains related to GO:0015267,False
@@ -21698,7 +21698,7 @@ Wban_09058,Does not have InterPro domains related to GO:0015267,False
 Wban_09059,Does not have InterPro domains related to GO:0015267,False
 Wban_09060,Does not have InterPro domains related to GO:0015267,False
 Wban_09061,Does not have InterPro domains related to GO:0015267,False
-Wban_09062,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002394 - Nicotinic acetylcholine receptor, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_09062,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR002394 - Nicotinic acetylcholine receptor",True
 Wban_09063,Does not have InterPro domains related to GO:0015267,False
 Wban_09064,Does not have InterPro domains related to GO:0015267,False
 Wban_09065,Does not have InterPro domains related to GO:0015267,False
@@ -21897,7 +21897,7 @@ Wban_09257,Does not have InterPro domains related to GO:0015267,False
 Wban_09258,Does not have InterPro domains related to GO:0015267,False
 Wban_09259,Does not have InterPro domains related to GO:0015267,False
 Wban_09260,Does not have InterPro domains related to GO:0015267,False
-Wban_09261,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003280 - Two pore domain potassium channel, IPR003092 - Two pore domain potassium channel, TASK family",True
+Wban_09261,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR003092 - Two pore domain potassium channel, TASK family, IPR003280 - Two pore domain potassium channel",True
 Wban_09262,Does not have InterPro domains related to GO:0015267,False
 Wban_09263,Does not have InterPro domains related to GO:0015267,False
 Wban_09264,Does not have InterPro domains related to GO:0015267,False
@@ -22018,7 +22018,7 @@ Wban_09378,Does not have InterPro domains related to GO:0015267,False
 Wban_09379,Does not have InterPro domains related to GO:0015267,False
 Wban_09380,Does not have InterPro domains related to GO:0015267,False
 Wban_09381,Does not have InterPro domains related to GO:0015267,False
-Wban_09382,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily",True
+Wban_09382,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_09383,Does not have InterPro domains related to GO:0015267,False
 Wban_09384,Does not have InterPro domains related to GO:0015267,False
 Wban_09385,Does not have InterPro domains related to GO:0015267,False
@@ -22037,7 +22037,7 @@ Wban_09397,Does not have InterPro domains related to GO:0015267,False
 Wban_09398,Does not have InterPro domains related to GO:0015267,False
 Wban_09399,Does not have InterPro domains related to GO:0015267,False
 Wban_09400,Does not have InterPro domains related to GO:0015267,False
-Wban_09401,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel",True
+Wban_09401,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
 Wban_09402,Does not have InterPro domains related to GO:0015267,False
 Wban_09403,Does not have InterPro domains related to GO:0015267,False
 Wban_09404,Does not have InterPro domains related to GO:0015267,False
@@ -22533,7 +22533,7 @@ Wban_09893,Does not have InterPro domains related to GO:0015267,False
 Wban_09894,Does not have InterPro domains related to GO:0015267,False
 Wban_09895,Does not have InterPro domains related to GO:0015267,False
 Wban_09896,Does not have InterPro domains related to GO:0015267,False
-Wban_09897,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR002394 - Nicotinic acetylcholine receptor",True
+Wban_09897,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006201 - Neurotransmitter-gated ion-channel, IPR002394 - Nicotinic acetylcholine receptor, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_09898,Does not have InterPro domains related to GO:0015267,False
 Wban_09899,Does not have InterPro domains related to GO:0015267,False
 Wban_09900,Does not have InterPro domains related to GO:0015267,False
@@ -22670,7 +22670,7 @@ Wban_10030,Does not have InterPro domains related to GO:0015267,False
 Wban_10031,Does not have InterPro domains related to GO:0015267,False
 Wban_10032,Does not have InterPro domains related to GO:0015267,False
 Wban_10033,Does not have InterPro domains related to GO:0015267,False
-Wban_10034,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR002289 - Gamma-aminobutyric-acid A receptor, beta subunit, IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
+Wban_10034,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR002289 - Gamma-aminobutyric-acid A receptor, beta subunit, IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_10035,Does not have InterPro domains related to GO:0015267,False
 Wban_10036,Does not have InterPro domains related to GO:0015267,False
 Wban_10037,Does not have InterPro domains related to GO:0015267,False
@@ -23120,7 +23120,7 @@ Wban_10480,Does not have InterPro domains related to GO:0015267,False
 Wban_10481,Does not have InterPro domains related to GO:0015267,False
 Wban_10482,Does not have InterPro domains related to GO:0015267,False
 Wban_10483,Does not have InterPro domains related to GO:0015267,False
-Wban_10484,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha",True
+Wban_10484,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006201 - Neurotransmitter-gated ion-channel, IPR036734 - Neurotransmitter-gated ion-channel ligand-binding domain superfamily, IPR006028 - Gamma-aminobutyric acid A receptor/Glycine receptor alpha, IPR006202 - Neurotransmitter-gated ion-channel ligand-binding domain",True
 Wban_10485,Does not have InterPro domains related to GO:0015267,False
 Wban_10486,Does not have InterPro domains related to GO:0015267,False
 Wban_10487,Does not have InterPro domains related to GO:0015267,False
@@ -23179,7 +23179,7 @@ Wban_10539,Does not have InterPro domains related to GO:0015267,False
 Wban_10540,Does not have InterPro domains related to GO:0015267,False
 Wban_10541,Does not have InterPro domains related to GO:0015267,False
 Wban_10542,Does not have InterPro domains related to GO:0015267,False
-Wban_10543,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR036742 - ATP synthase, F1 complex, epsilon subunit superfamily, mitochondrial, IPR006721 - ATP synthase, F1 complex, epsilon subunit, mitochondrial",True
+Wban_10543,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR006721 - ATP synthase, F1 complex, epsilon subunit, mitochondrial, IPR036742 - ATP synthase, F1 complex, epsilon subunit superfamily, mitochondrial",True
 Wban_10544,Does not have InterPro domains related to GO:0015267,False
 Wban_10545,Does not have InterPro domains related to GO:0015267,False
 Wban_10546,Does not have InterPro domains related to GO:0015267,False
@@ -23189,7 +23189,7 @@ Wban_10549,Does not have InterPro domains related to GO:0015267,False
 Wban_10550,Does not have InterPro domains related to GO:0015267,False
 Wban_10551,Does not have InterPro domains related to GO:0015267,False
 Wban_10552,Does not have InterPro domains related to GO:0015267,False
-Wban_10553,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR035968 - ATP synthase, F1 complex, gamma subunit superfamily, IPR000131 - ATP synthase, F1 complex, gamma subunit",True
+Wban_10553,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000131 - ATP synthase, F1 complex, gamma subunit, IPR035968 - ATP synthase, F1 complex, gamma subunit superfamily",True
 Wban_10554,Does not have InterPro domains related to GO:0015267,False
 Wban_10555,Does not have InterPro domains related to GO:0015267,False
 Wban_10556,Does not have InterPro domains related to GO:0015267,False
@@ -23317,7 +23317,7 @@ Wban_10677,Does not have InterPro domains related to GO:0015267,False
 Wban_10678,Does not have InterPro domains related to GO:0015267,False
 Wban_10679,Does not have InterPro domains related to GO:0015267,False
 Wban_10680,Does not have InterPro domains related to GO:0015267,False
-Wban_10681,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR000699 - RIH domain, IPR005821 - Ion transport domain, IPR000493 - Inositol 1,4,5-trisphosphate receptor",True
+Wban_10681,"Encodes protein with InterPro domain(s)  that are related to GO:0015267: IPR005821 - Ion transport domain, IPR000493 - Inositol 1,4,5-trisphosphate receptor, IPR000699 - RIH domain",True
 Wban_10682,Does not have InterPro domains related to GO:0015267,False
 Wban_10683,Does not have InterPro domains related to GO:0015267,False
 Wban_10684,Does not have InterPro domains related to GO:0015267,False

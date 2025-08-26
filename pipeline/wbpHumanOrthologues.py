@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from queryWbpBiomart import *
 
 def queryWbpHumanOrthologues(genomes):
@@ -30,11 +31,18 @@ def queryWbpHumanOrthologues(genomes):
 
     # Apply criterion "lacks WBP human orthologue"
     df_filtered['lacks_WBP_human_orthologue'] = pd.isna(df_filtered['Human gene stable ID'])
+    df_filtered['lacks_WBP_human_orthologue_evidence'] = np.where(df_filtered['lacks_WBP_human_orthologue']==True, 
+                                                                  'No human orthologue found in WormBase ParaSite', 
+                                                                  'Has human orthologue(s) in WormBase ParaSite, the most similar is: ' + df_filtered['Human gene name'])
 
     # Apply criterion "best WBP human orthologue < 40% identity"
     df_filtered['best_WBP_human_orthologue_lt_40pct_identity'] = df_filtered['% identity'] < 40
 
-
+    df_filtered['best_WBP_human_orthologue_lt_40pct_identity_evidence'] = np.where(df_filtered['best_WBP_human_orthologue_lt_40pct_identity']==True, 
+                                                                                  'Best human orthologue in WormBase ParaSite has < 40% identity: ' + df_filtered['Human gene name'] + ' ' + df_filtered['% identity'].astype(str) + '%', 
+                                                                                  'Best human orthologue found in WormBase Parasite has >= 40% identity: ' + df_filtered['Human gene name'] + ' ' + df_filtered['% identity'].astype(str) + '%')
+    df_filtered['best_WBP_human_orthologue_lt_40pct_identity_evidence'] = np.where(df_filtered['lacks_WBP_human_orthologue']==True,
+                                                                                   'No human orthologue found in WormBase ParaSite', df_filtered['best_WBP_human_orthologue_lt_40pct_identity_evidence'])
 
     # Tests
     # There should be no duplicates in the gene IDs
