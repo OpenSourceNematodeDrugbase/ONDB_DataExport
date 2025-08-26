@@ -54,8 +54,22 @@ overall['is_privileged_target_family_evidence'] = np.where(overall.is_privileged
     lambda row: ", ".join(row.index[row]), axis=1
 ), "Does not meet the following criteria:  'is_enzyme', 'is_kinase', 'is_ion_channel', 'is_gpcr', 'is_nuclear_receptor'")
 
-
 overall.to_csv('pipeline/overall.csv', index=False)
+
+export = overall[['Gene stable ID', 'Genome name', 'Transcript stable ID', 'Gene description',
+                   'lacks_WBP_human_orthologue', 'lacks_WBP_human_orthologue_evidence',
+                    'best_WBP_human_orthologue_lt_40pct_identity', 'best_WBP_human_orthologue_lt_40pct_identity_evidence',
+                    'is_enzyme', 'is_enzyme_evidence', 
+                    'is_kinase', 'is_kinase_evidence', 
+                    'is_ion_channel', 'is_ion_channel_evidence', 
+                    'is_gpcr', 'is_gpcr_evidence', 
+                    'is_nuclear_receptor', 'is_nuclear_receptor_evidence',
+                    'is_privileged_target_family', 'is_privileged_target_family_evidence']]
+
+export.to_csv('pipeline/export.csv', index=False)
+export.to_json('pipeline/export.json', orient='records', indent=4)
+
+
 
 print("Number of genes that encode enzymes:", overall[is_enzyme['is_enzyme'] == True].shape[0])
 print("Number of genes that encode kinases:", overall[is_kinase['is_kinase'] == True].shape[0])
