@@ -65,7 +65,10 @@ def retrieveGeneListFromWbpBiomart(genomes):
     # nulls_last=True because we don't want to choose a non-coding isoform
     result = df2.sort('CDS_max', descending=True, nulls_last=True).group_by('Gene stable ID', maintain_order=True).first()                     
 
-    df = result.to_pandas()
+    result_ordered = result.sort('Genome name', 'Gene stable ID')
+
+
+    df = result_ordered.to_pandas()
 
     # Tests
 
