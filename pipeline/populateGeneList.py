@@ -62,7 +62,8 @@ def retrieveGeneListFromWbpBiomart(genomes):
     df2 = df.join(all_exons_data2, left_on='Transcript stable ID', right_on='Transcript stable ID', how='left') 
 
     # now we can find the principal isoform of each gene by taking the transcript with the longest CDS
-    result = df2.sort('CDS_max', descending=True).group_by('Gene stable ID', maintain_order=True).first()                     
+    # nulls_last=True because we don't want to choose a non-coding isoform
+    result = df2.sort('CDS_max', descending=True, nulls_last=True).group_by('Gene stable ID', maintain_order=True).first()                     
 
     df = result.to_pandas()
 
