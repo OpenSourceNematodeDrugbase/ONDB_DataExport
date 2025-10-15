@@ -1,0 +1,18 @@
+[info] Run folder: pipeline_runs\20251004_201843_biomart-v01
+[info] Species list: ['trtricprjeb535']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[DEBUG] EXPECTED COLUMNS: {'Genome name', 'Transcript stable ID', 'Transcript biotype', 'Gene description', 'Gene stable ID'}
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[DEBUG] EXPECTED COLUMNS: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+Successfully processed 12638 genes for trtricprjeb535
+[info] Principal gene rows for trtricprjeb535: 12,638
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[DEBUG] EXPECTED COLUMNS: {'Human % identity', 'Human gene stable ID', 'Human gene name', '% identity', 'Homology type', 'Gene stable ID'}
+[info] Human-orthologues rows for trtricprjeb535: 12,638
+[info] EXPECTED human-orthologues columns: ['% identity', 'Gene stable ID', 'Homology type', 'Human % identity', 'Human gene name', 'Human gene stable ID']
+[info] RECEIVED human-orthologues columns (subset ok? True )
+[info] Post-merge for trtricprjeb535: 12,638 rows × 17 cols (rows match principal? True)
+[info] Combined export shape: 12,638 rows × 17 cols

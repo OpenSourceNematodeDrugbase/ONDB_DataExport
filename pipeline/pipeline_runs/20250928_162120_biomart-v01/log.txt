@@ -1,0 +1,20 @@
+[info] Run folder: pipeline_runs\20250928_162120_biomart-v01
+[info] Species list: ['trtricprjeb535']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[debug] Testing genes XML for species: trtricprjeb535
+[debug] First 500 chars of XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Query>
+<Query virtualSchemaName="parasite_mart" formatter="TSV" header="1" uniqueRows="0">
+    <Dataset name="wbps_gene" interface="default">
+        <...
+[headers] ['Gene stable ID', 'Transcript stable ID']
+[headers] ['Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': unable to find column "Gene description"; valid columns: ["Gene stable ID", "Transcript stable ID", "cds_length", "isoform_type"]
+
+Resolved plan until failure:
+
+	---> FAILED HERE RESOLVING 'sink' <---
+DF ["Gene stable ID", "Transcript stable ID", "cds_length", "isoform_type"]; PROJECT */4 COLUMNS
+[error] No species succeeded; aborting.

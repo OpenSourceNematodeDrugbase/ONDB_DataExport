@@ -1,0 +1,84 @@
+[info] Run folder: pipeline_runs\20251005_194925_biomart-v01
+[info] Species list: ['trtricprjeb535', 'wubancprjna275548']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[DEBUG] EXPECTED COLUMNS: {'Gene stable ID', 'Transcript stable ID', 'Genome name', 'Gene description', 'Transcript biotype'}
+[info] BioMart (gene list) — received columns: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[info] BioMart (gene list) — received rows: 13,913
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[DEBUG] EXPECTED COLUMNS: {'CDS end (within cDNA)', 'Gene stable ID', 'CDS start (within cDNA)', 'Transcript stable ID'}
+[info] BioMart (CDS) — received columns: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[info] BioMart (CDS) — received rows: 86,155
+Successfully processed 12638 genes for trtricprjeb535
+[info] Principal gene rows for trtricprjeb535: 12,638
+[info] Fetching human orthologues for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[DEBUG] EXPECTED COLUMNS: {'Gene stable ID', 'Homology type', '% identity', 'Human gene name', 'Human % identity', 'Human gene stable ID'}
+[info] BioMart (human orthologues) — received columns: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[info] BioMart (human orthologues) — received rows: 26,322
+[info] Human-orthologues rows for trtricprjeb535: 12,638
+[info] Post-merge rows for trtricprjeb535: 12,638 (matches principal? True)
+[info] Export includes all expected human-orthologue columns? True
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] Loaded interpro2go from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\interpro2go (30625 IPR→GO links across 14758 IPRs).
+[info] Loaded GO DAG (is_a only) from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\go-basic.obo with 14722 parent nodes.
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] Loaded interpro2go from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\interpro2go (30625 IPR→GO links across 14758 IPRs).
+[info] Loaded GO DAG (is_a only) from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\go-basic.obo with 14722 parent nodes.
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] trtricprjeb535 is_enzyme TRUE: 2134
+[info] trtricprjeb535 is_kinase TRUE: 248
+[info] trtricprjeb535 is_gpcr   TRUE: 77
+[info] Fetching base gene list for species: wubancprjna275548
+Processing species: wubancprjna275548
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[DEBUG] EXPECTED COLUMNS: {'Gene stable ID', 'Transcript stable ID', 'Genome name', 'Gene description', 'Transcript biotype'}
+[info] BioMart (gene list) — received columns: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[info] BioMart (gene list) — received rows: 11,166
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[DEBUG] EXPECTED COLUMNS: {'CDS end (within cDNA)', 'Gene stable ID', 'CDS start (within cDNA)', 'Transcript stable ID'}
+[info] BioMart (CDS) — received columns: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[info] BioMart (CDS) — received rows: 101,343
+Successfully processed 11166 genes for wubancprjna275548
+[info] Principal gene rows for wubancprjna275548: 11,166
+[info] Fetching human orthologues for species: wubancprjna275548
+Processing species: wubancprjna275548
+[DEBUG] ACTUAL COLUMNS: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[DEBUG] EXPECTED COLUMNS: {'Gene stable ID', 'Homology type', '% identity', 'Human gene name', 'Human % identity', 'Human gene stable ID'}
+[info] BioMart (human orthologues) — received columns: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[info] BioMart (human orthologues) — received rows: 24,571
+[info] Human-orthologues rows for wubancprjna275548: 11,166
+[info] Post-merge rows for wubancprjna275548: 11,166 (matches principal? True)
+[info] Export includes all expected human-orthologue columns? True
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] Loaded interpro2go from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\interpro2go (30625 IPR→GO links across 14758 IPRs).
+[info] Loaded GO DAG (is_a only) from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\go-basic.obo with 14722 parent nodes.
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] Loaded interpro2go from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\interpro2go (30625 IPR→GO links across 14758 IPRs).
+[info] Loaded GO DAG (is_a only) from C:\Users\Magdalena Perez\Documents\GitHub\ONDB_DataExport\pipeline\go-basic.obo with 14722 parent nodes.
+[info] Biomart header discovered (3 columns):
+  [01] Gene stable ID
+  [02] InterPro ID
+  [03] InterPro description
+[info] wubancprjna275548 is_enzyme TRUE: 2067
+[info] wubancprjna275548 is_kinase TRUE: 289
+[info] wubancprjna275548 is_gpcr   TRUE: 139
+[info] Combined export shape: 23,804 rows × 23 cols
+[info] Final export column count: 23

@@ -1,0 +1,9 @@
+[info] Run folder: pipeline_runs\20250925_184034_biomart-v01
+[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']
+[info] Fetching base gene list for species: cejohnprjeb47283
+Processing species: cejohnprjeb47283
+[warn] Failed species cejohnprjeb47283: Failed to process species 'cejohnprjeb47283': name 'EXPECTED_COLUMNS' is not defined
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': name 'EXPECTED_COLUMNS' is not defined
+[error] No species succeeded; aborting.

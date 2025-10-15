@@ -1,0 +1,17 @@
+[info] Run folder: pipeline_runs\20251001_201054_biomart-v01
+[info] Species list: ['trtricprjeb535']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ERROR: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+Attempt 1 failed, retrying...: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+[DEBUG] ERROR: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+Attempt 2 failed, retrying...: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+[DEBUG] ERROR: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': BioMart query failed after 3 attempts: BioMart response missing columns: ['Gene name']
+Available: Gene description, Gene stable ID, Genome name, Transcript biotype, Transcript stable ID
+[error] No species succeeded; aborting.

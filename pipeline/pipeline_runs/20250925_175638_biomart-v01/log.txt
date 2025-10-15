@@ -1,0 +1,25 @@
+[info] Run folder: pipeline_runs\20250925_175638_biomart-v01
+[info] Species list: ['wubancprjna275548', 'trtricprjeb535']
+[info] Fetching base gene list for species: wubancprjna275548
+Processing species: wubancprjna275548
+=== DEBUG COLUMNS ===
+Expected: {'Gene description', 'Transcript biotype', 'Gene stable ID', 'Genome name', 'Transcript stable ID'}
+Actual: {'Transcript biotype', 'Genome name', 'Transcript stable ID', 'Gene description', 'Gene stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Gene stable ID', 'Transcript stable ID', 'CDS end (within cDNA)', 'CDS start (within cDNA)'}
+Actual: {'Gene stable ID', 'Transcript stable ID', 'CDS end (within cDNA)', 'CDS start (within cDNA)'}
+=====================
+Successfully processed 11166 genes for wubancprjna275548
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+=== DEBUG COLUMNS ===
+Expected: {'Gene description', 'Transcript biotype', 'Gene stable ID', 'Genome name', 'Transcript stable ID'}
+Actual: {'Transcript biotype', 'Genome name', 'Transcript stable ID', 'Gene description', 'Gene stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Gene stable ID', 'Transcript stable ID', 'CDS end (within cDNA)', 'CDS start (within cDNA)'}
+Actual: {'Gene stable ID', 'Transcript stable ID', 'CDS end (within cDNA)', 'CDS start (within cDNA)'}
+=====================
+Successfully processed 12638 genes for trtricprjeb535
+[info] Phase 1B complete — multi-species export written.

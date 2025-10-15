@@ -1,0 +1,17 @@
+[info] Run folder: pipeline_runs\20250925_184703_biomart-v01
+[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']
+[info] Fetching base gene list for species: cejohnprjeb47283
+Processing species: cejohnprjeb47283
+=== DEBUG COLUMNS ===
+Expected: {'Gene stable ID', 'Genome name', 'Gene description', 'Transcript biotype', 'Transcript stable ID'}
+Actual: {'Gene description', 'Transcript biotype', 'Gene stable ID', 'Genome name', 'Transcript stable ID'}
+=====================
+[warn] Failed species cejohnprjeb47283: Failed to process species 'cejohnprjeb47283': name 'validate_biomart_columns' is not defined
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+=== DEBUG COLUMNS ===
+Expected: {'Gene stable ID', 'Genome name', 'Gene description', 'Transcript biotype', 'Transcript stable ID'}
+Actual: {'Gene description', 'Transcript biotype', 'Gene stable ID', 'Genome name', 'Transcript stable ID'}
+=====================
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': name 'validate_biomart_columns' is not defined
+[error] No species succeeded; aborting.

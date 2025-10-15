@@ -1,0 +1,36 @@
+[info] Run folder: pipeline_runs\20250925_210952_biomart-v01
+[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535', 'trribeprjna953805']
+[info] Fetching base gene list for species: cejohnprjeb47283
+Processing species: cejohnprjeb47283
+=== DEBUG COLUMNS ===
+Expected: {'Genome name', 'Gene stable ID', 'Gene description', 'Transcript biotype', 'Transcript stable ID'}
+Actual: {'Gene stable ID', 'Transcript biotype', 'Genome name', 'Gene description', 'Transcript stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+Actual: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+=====================
+Successfully processed 10438 genes for cejohnprjeb47283
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+=== DEBUG COLUMNS ===
+Expected: {'Genome name', 'Gene stable ID', 'Gene description', 'Transcript biotype', 'Transcript stable ID'}
+Actual: {'Gene stable ID', 'Transcript biotype', 'Genome name', 'Gene description', 'Transcript stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+Actual: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+=====================
+Successfully processed 12638 genes for trtricprjeb535
+[info] Fetching base gene list for species: trribeprjna953805
+Processing species: trribeprjna953805
+=== DEBUG COLUMNS ===
+Expected: {'Genome name', 'Gene stable ID', 'Gene description', 'Transcript biotype', 'Transcript stable ID'}
+Actual: {'Gene stable ID', 'Transcript biotype', 'Genome name', 'Gene description', 'Transcript stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+Actual: {'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)', 'Gene stable ID'}
+=====================
+Successfully processed 23879 genes for trribeprjna953805
+[info] Phase 1B complete — multi-species export written.

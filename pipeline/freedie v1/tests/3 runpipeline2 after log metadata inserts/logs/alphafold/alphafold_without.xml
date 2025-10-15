@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Query>
+<Query virtualSchemaName="parasite_mart" formatter="TSV" header="0" uniqueRows="0" count="" datasetConfigVersion="0.6">
+  <Dataset name="wbps_gene" interface="default">
+    <Filter name="with_alphafold" excluded="1"/>
+    <Filter name="species_id_1010" value="trtricprjeb535,wubancprjna275548"/>
+    <Attribute name="production_name_1010" />
+    <Attribute name="wbps_gene_id" />
+  </Dataset>
+</Query>

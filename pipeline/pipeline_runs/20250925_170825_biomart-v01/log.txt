@@ -1,0 +1,25 @@
+[info] Run folder: pipeline_runs\20250925_170825_biomart-v01
+[info] Species list: ['wubancprjna275548', 'trtricprjeb535']
+[info] Fetching base gene list for species: wubancprjna275548
+Processing species: wubancprjna275548
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'Genome name', 'Gene stable ID', 'Transcript biotype', 'Gene description'}
+Actual: {'Genome name', 'Gene description', 'Transcript stable ID', 'Transcript biotype', 'Gene stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'Gene stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)'}
+Actual: {'Transcript stable ID', 'Gene stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)'}
+=====================
+[warn] Failed species wubancprjna275548: Failed to process species 'wubancprjna275548': unable to find column "non_coding"; valid columns: ["Genome name", "Gene stable ID", "Transcript stable ID", "Transcript biotype", "Gene description", "cds_length"]
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'Genome name', 'Gene stable ID', 'Transcript biotype', 'Gene description'}
+Actual: {'Genome name', 'Gene description', 'Transcript stable ID', 'Transcript biotype', 'Gene stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'Gene stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)'}
+Actual: {'Transcript stable ID', 'Gene stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)'}
+=====================
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': unable to find column "non_coding"; valid columns: ["Genome name", "Gene stable ID", "Transcript stable ID", "Transcript biotype", "Gene description", "cds_length"]
+[error] No species succeeded; aborting.

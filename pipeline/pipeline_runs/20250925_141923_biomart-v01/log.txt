@@ -1,0 +1,3 @@
+[info] Run folder: pipeline_runs\20250925_141923_biomart-v01
+[info] Species list: ['wubancprjna275548', 'trtricprjeb535']
+[info] Phase 1A complete — created per-run folder and placeholder export.

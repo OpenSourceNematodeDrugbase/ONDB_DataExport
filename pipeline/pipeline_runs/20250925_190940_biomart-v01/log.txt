@@ -1,0 +1,25 @@
+[info] Run folder: pipeline_runs\20250925_190940_biomart-v01
+[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']
+[info] Fetching base gene list for species: cejohnprjeb47283
+Processing species: cejohnprjeb47283
+=== DEBUG COLUMNS ===
+Expected: {'Gene description', 'Genome name', 'Transcript stable ID', 'Gene stable ID', 'Transcript biotype'}
+Actual: {'Genome name', 'Gene stable ID', 'Transcript biotype', 'Gene description', 'Transcript stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'CDS start (within cDNA)', 'Gene stable ID', 'CDS end (within cDNA)'}
+Actual: {'Transcript stable ID', 'CDS start (within cDNA)', 'Gene stable ID', 'CDS end (within cDNA)'}
+=====================
+Successfully processed 10438 genes for cejohnprjeb47283
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+=== DEBUG COLUMNS ===
+Expected: {'Gene description', 'Genome name', 'Transcript stable ID', 'Gene stable ID', 'Transcript biotype'}
+Actual: {'Genome name', 'Gene stable ID', 'Transcript biotype', 'Gene description', 'Transcript stable ID'}
+=====================
+=== DEBUG COLUMNS ===
+Expected: {'Transcript stable ID', 'CDS start (within cDNA)', 'Gene stable ID', 'CDS end (within cDNA)'}
+Actual: {'Transcript stable ID', 'CDS start (within cDNA)', 'Gene stable ID', 'CDS end (within cDNA)'}
+=====================
+Successfully processed 12638 genes for trtricprjeb535
+[info] Phase 1B complete — multi-species export written.

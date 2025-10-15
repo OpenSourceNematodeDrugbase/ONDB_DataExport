@@ -1,0 +1,14 @@
+[info] Run folder: pipeline_runs\20251004_201230_biomart-v01
+[info] Species list: ['trtricprjeb535']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
+[DEBUG] EXPECTED COLUMNS: {'Transcript stable ID', 'Gene stable ID', 'Transcript biotype', 'Gene description', 'Genome name'}
+[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
+[DEBUG] EXPECTED COLUMNS: {'Transcript stable ID', 'Gene stable ID', 'CDS end (within cDNA)', 'CDS start (within cDNA)'}
+Successfully processed 12638 genes for trtricprjeb535
+[info] Fetching human orthologues for species: trtricprjeb535
+Processing species: trtricprjeb535
+[DEBUG] ACTUAL COLUMNS: ['Gene stable ID', 'Human gene stable ID', 'Human gene name', 'Homology type', '% identity', 'Human % identity']
+[DEBUG] EXPECTED COLUMNS: {'Homology type', 'Human gene stable ID', 'Human gene name', 'Gene stable ID', '% identity', 'Human % identity'}
+[info] Combined export shape: 12,638 rows × 17 cols

@@ -1,0 +1,16 @@
+[info] Run folder: pipeline_runs\20250928_165133_biomart-v01
+[info] Species list: ['trtricprjeb535']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[debug] Testing genes XML for species: trtricprjeb535
+[debug] First 500 chars of XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Query>
+<Query virtualSchemaName="parasite_mart" formatter="TSV" header="1" uniqueRows="0">
+    <Dataset name="wbps_gene" interface="default">
+        <...
+[headers] ['Gene stable ID', 'Transcript stable ID', 'Gene name', 'Gene description', 'Gene biotype', 'Chromosome/scaffold name', 'Gene start (bp)', 'Gene end (bp)', 'Strand']
+[headers] ['Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)', 'Protein stable ID', 'Transcript start (bp)', 'Transcript end (bp)']
+[debug] ACTUAL CDS headers: ['Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)', 'Protein stable ID', 'Transcript start (bp)', 'Transcript end (bp)']
+Successfully processed 12671 genes for trtricprjeb535
+[info] Phase 1B complete — multi-species export written.

@@ -1,0 +1,31 @@
+[info] Run folder: pipeline_runs\20250928_155146_biomart-v01
+[info] Species list: ['trtricprjeb535', 'trribeprjna953805']
+[info] Fetching base gene list for species: trtricprjeb535
+Processing species: trtricprjeb535
+[debug] Testing genes XML for species: trtricprjeb535
+[debug] First 200 chars of XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Query>
+<Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "1" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >
+          ...
+Attempt 1 failed, retrying...: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+Attempt 2 failed, retrying...: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': BioMart query failed after 3 attempts: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+[info] Fetching base gene list for species: trribeprjna953805
+Processing species: trribeprjna953805
+[debug] Testing genes XML for species: trribeprjna953805
+[debug] First 200 chars of XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Query>
+<Query  virtualSchemaName = "parasite_mart" formatter = "TSV" header = "1" uniqueRows = "0" count = "" datasetConfigVersion = "0.6" >
+          ...
+Attempt 1 failed, retrying...: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+Attempt 2 failed, retrying...: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+[warn] Failed species trribeprjna953805: Failed to process species 'trribeprjna953805': BioMart query failed after 3 attempts: BioMart response missing columns: ['Gene biotype', 'Gene description', 'Gene name', 'Gene stable ID', 'Transcript stable ID']
+Available: Query ERROR: caught BioMart::Exception: non-BioMart die(): 
+[error] No species succeeded; aborting.
