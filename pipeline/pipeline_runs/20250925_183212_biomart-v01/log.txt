@@ -1,7 +1,0 @@
-[info] Run folder: pipeline_runs\20250925_183212_biomart-v01
-[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']
-[info] Fetching base gene list for species: cejohnprjeb47283
-[warn] Failed species cejohnprjeb47283: BioMart query failed after 3 attempts: RuntimeError("BioMart request failed after 1 attempts: ValueError('Headerless BioMart result has unexpected column count.\\nExpected 5 cols, got 4')")
-[info] Fetching base gene list for species: trtricprjeb535
-[warn] Failed species trtricprjeb535: BioMart query failed after 3 attempts: RuntimeError("BioMart request failed after 1 attempts: ValueError('Headerless BioMart result has unexpected column count.\\nExpected 5 cols, got 4')")
-[error] No species succeeded; aborting.

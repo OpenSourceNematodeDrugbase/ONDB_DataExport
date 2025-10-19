@@ -1,9 +1,0 @@
-[info] Run folder: pipeline_runs\20251003_180803_biomart-v01
-[info] Species list: ['trtricprjeb535']
-[info] Fetching base gene list for species: trtricprjeb535
-Processing species: trtricprjeb535
-[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'Transcript biotype', 'Gene description']
-[DEBUG] EXPECTED COLUMNS: {'Genome name', 'Gene description', 'Transcript stable ID', 'Transcript biotype', 'Gene stable ID'}
-[DEBUG] ACTUAL COLUMNS: ['Genome name', 'Gene stable ID', 'Transcript stable ID', 'CDS start (within cDNA)', 'CDS end (within cDNA)']
-[DEBUG] EXPECTED COLUMNS: {'Gene stable ID', 'CDS start (within cDNA)', 'Transcript stable ID', 'CDS end (within cDNA)'}
-Successfully processed 12638 genes for trtricprjeb535
