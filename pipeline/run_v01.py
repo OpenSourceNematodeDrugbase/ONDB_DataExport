@@ -162,7 +162,7 @@ def fetch_base_biomart_for_species(species_code: str) -> pd.DataFrame:
     # Fill booleans after left-join (rows with no InterPro stay False/empty)
     for col in ["is_enzyme", "is_kinase", "is_gpcr"]:
         if col in merged.columns:
-            merged[col] = merged[col].fillna(False).astype(bool)
+            merged[col] = merged[col].infer_objects(copy=False).astype(bool)
 
     # Quick per-species sanity counts
     print(f"[info] {species_code} is_enzyme TRUE:", int(merged.get("is_enzyme", pd.Series([], dtype=bool)).sum()))
