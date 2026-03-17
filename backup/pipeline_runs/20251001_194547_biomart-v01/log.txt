@@ -1,8 +1,0 @@
-[info] Run folder: pipeline_runs\20251001_194547_biomart-v01
-[info] Species list: ['trtricprjeb535']
-[info] Fetching base gene list for species: trtricprjeb535
-Processing species: trtricprjeb535
-Attempt 1 failed, retrying...: name '_ensure_headers_enabled' is not defined
-Attempt 2 failed, retrying...: name '_ensure_headers_enabled' is not defined
-[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': BioMart query failed after 3 attempts: name '_ensure_headers_enabled' is not defined
-[error] No species succeeded; aborting.

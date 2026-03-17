@@ -1,2 +1,0 @@
-[info] Run folder: pipeline_runs\20250925_194449_biomart-v01
-[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']

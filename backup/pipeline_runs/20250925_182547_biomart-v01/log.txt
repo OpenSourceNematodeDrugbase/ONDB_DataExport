@@ -1,9 +1,0 @@
-[info] Run folder: pipeline_runs\20250925_182547_biomart-v01
-[info] Species list: ['cejohnprjeb47283', 'trtricprjeb535']
-[info] Fetching base gene list for species: cejohnprjeb47283
-Processing species: cejohnprjeb47283
-[warn] Failed species cejohnprjeb47283: Failed to process species 'cejohnprjeb47283': fetch_biomart_with_validation() takes from 1 to 2 positional arguments but 3 were given
-[info] Fetching base gene list for species: trtricprjeb535
-Processing species: trtricprjeb535
-[warn] Failed species trtricprjeb535: Failed to process species 'trtricprjeb535': fetch_biomart_with_validation() takes from 1 to 2 positional arguments but 3 were given
-[error] No species succeeded; aborting.

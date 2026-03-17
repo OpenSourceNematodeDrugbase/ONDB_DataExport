@@ -1,7 +1,0 @@
-[info] Run folder: pipeline_runs\20250925_144053_biomart-v01
-[info] Species list: ['wubancprjna275548', 'trtricprjeb535']
-[info] Fetching base gene list for species: wubancprjna275548
-[warn] Failed species wubancprjna275548: name 'populateGeneList' is not defined
-[info] Fetching base gene list for species: trtricprjeb535
-[warn] Failed species trtricprjeb535: name 'populateGeneList' is not defined
-[error] No species succeeded; aborting.
