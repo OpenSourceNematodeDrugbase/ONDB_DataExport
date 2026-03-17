@@ -11,6 +11,18 @@ from wbpHumanOrthologues import (
     retrieveHumanOrthologuesFromWbpBiomart,
     EXPECTED_HUMAN_ORTHO_COLUMNS,   
 )
+
+from wbpCelegansOrthologues import (
+    retrieveCelegansOrthologuesFromWbpBiomart,
+    EXPECTED_CELEGANS_ORTHO_COLUMNS,
+
+)
+
+from wormmineRnaiPhenotypes import (
+    fetch_wormmine_rnai_for_genes,
+    aggregate_rnai_by_gene,
+)
+
 from testInterProGeneOntology import testInterProGeneOntology
 from testInterProStringSearch import testInterProStringSearch
 
@@ -25,7 +37,22 @@ if SCRIPT_DIR not in sys.path:
 
 OUTDIR = Path("pipeline_runs")  
 LABEL = "biomart-v01"
-SPECIES_LIST = ["trtricprjeb535","wubancprjna275548"]  # trial set
+# SPECIES_LIST = ["caelegprjna13758","wubancprjna275548" ]  # trial set
+
+
+SPECIES_LIST = [
+    "assuumprjna62057",     # Ascaris suum
+    # "brmalaprjna10729",     # Brugia malayi
+    # "hacontprjeb506",       # Haemonchus contortus
+    # "loloaprjna37757",      # Loa loa
+    # "neamerprjna72135",     # Necator americanus
+    # "onvolvprjeb513",       # Onchocerca volvulus
+    # "ststerprjna930454",    # Strongyloides stercoralis
+    # "trspirprjna12603",     # Trichinella spiralis
+    # "trtricprjeb535",       # Trichuris trichiura
+    # "wubancprjna275548"     # Wuchereria bancrofti
+]
+
 
 # ---- tiny logger to file + console ----
 def start_run_folder():
@@ -84,26 +111,23 @@ def write_run_json(run_dir, species_list):
 
 
 
-
 def fetch_base_biomart_for_species(species_code: str) -> pd.DataFrame:
-
-
     """
     Per-species fetch:
       1) base gene list (principal table)
-      2) human orthologues (new module)
-      3) left-merge on 'Gene stable ID'
+      2) human orthologues
+      3) C. elegans orthologues
+      4) InterPro-based flags (GO + string search)
     Returns Pandas, ready to concat and export.
     """
     print(f"[info] Fetching base gene list for species: {species_code}")
     principal_df = retrieveGeneListFromWbpBiomart(species_code)  # Pandas
     print(f"[info] Principal gene rows for {species_code}: {len(principal_df):,}")
 
-
+    # ---- Human orthologues (existing) ----
     print(f"[info] Fetching human orthologues for species: {species_code}")
     human_df = retrieveHumanOrthologuesFromWbpBiomart(species_code)  # Pandas
     print(f"[info] Human-orthologues rows for {species_code}: {len(human_df):,}")
-
 
     # Ensure join key is string on both sides
     principal_df["Gene stable ID"] = principal_df["Gene stable ID"].astype(str)
@@ -129,9 +153,11 @@ def fetch_base_biomart_for_species(species_code: str) -> pd.DataFrame:
         how="left",
     )
 
-        # Merge sanity: rows should match principal (left-merge)
-    print(f"[info] Post-merge rows for {species_code}: {merged.shape[0]:,} "
-          f"(matches principal? {merged.shape[0] == principal_df.shape[0]})")
+    # Merge sanity: rows should match principal (left-merge)
+    print(
+        f"[info] Post-merge rows for {species_code} (human orthologues): "
+        f"{merged.shape[0]:,} (matches principal? {merged.shape[0] == principal_df.shape[0]})"
+    )
 
     # Ensure all expected BioMart columns from the human module made it into the export
     missing_in_export = sorted(set(EXPECTED_HUMAN_ORTHO_COLUMNS) - set(merged.columns))
@@ -139,44 +165,157 @@ def fetch_base_biomart_for_species(species_code: str) -> pd.DataFrame:
     if missing_in_export:
         print(f"[warn] Missing expected human-orthologue columns in export for {species_code}: {missing_in_export}")
 
+    # ---- NEW: C. elegans orthologues ----
+    print(f"[info] Fetching C. elegans orthologues for species: {species_code}")
+    ce_df = retrieveCelegansOrthologuesFromWbpBiomart(species_code)  # Pandas
+    print(f"[info] C. elegans-orthologues rows for {species_code}: {len(ce_df):,}")
+
+    # Ensure join key is string on both sides
+    ce_df["Gene stable ID"] = ce_df["Gene stable ID"].astype(str)
+
+    merged = merged.merge(
+        ce_df,
+        on="Gene stable ID",
+        how="left",
+    )
+
+    print(
+        f"[info] Post-merge rows for {species_code} (C. elegans orthologues): "
+        f"{merged.shape[0]:,} (matches principal? {merged.shape[0] == principal_df.shape[0]})"
+    )
+
+    missing_ce = sorted(set(EXPECTED_CELEGANS_ORTHO_COLUMNS) - set(merged.columns))
+    print(f"[info] Export includes all expected C. elegans orthologue columns? {len(missing_ce) == 0}")
+    if missing_ce:
+        print(f"[warn] Missing expected C. elegans orthologue columns in export for {species_code}: {missing_ce}")
+
     # Ensure 'species' exists for your by-species counts later in run.json
     merged["species"] = species_code
-
+    merged = attach_celegans_rnai_annotations(merged)
 
     # ---- Module annotations (left-join onto the principal table) ----
-    # NOTE: Modules return Pandas with Biomart headers preserved.
     # GO-based:
     df_is_enzyme = testInterProGeneOntology(species_code, "GO:0003824", "is_enzyme")
     df_is_kinase = testInterProGeneOntology(species_code, "GO:0004672", "is_kinase")
+    df_is_ion_channel = testInterProGeneOntology(species_code,"GO:0015267","is_ion_channel")
+    df_is_nuclear_receptor = testInterProGeneOntology(species_code,"GO:0004879","is_nuclear_receptor")
+
 
     # String-search (use original regex first; we can widen later if needed)
-    df_is_gpcr   = testInterProStringSearch(
+    df_is_gpcr = testInterProStringSearch(
         species_code,
         r"G-protein coupled receptor|GPCR.[^k]",
         "is_gpcr",
     )
 
-    for mod_df in [df_is_enzyme, df_is_kinase, df_is_gpcr]:
+
+
+    for mod_df in [
+        df_is_enzyme,
+        df_is_kinase,
+        df_is_ion_channel,
+        df_is_nuclear_receptor,
+        df_is_gpcr,
+    ]:
+
         merged = merged.merge(mod_df, on="Gene stable ID", how="left")
 
+
     # Fill booleans after left-join (rows with no InterPro stay False/empty)
-    for col in ["is_enzyme", "is_kinase", "is_gpcr"]:
+    for col in ["is_enzyme", "is_kinase","is_ion_channel","is_nuclear_receptor", "is_gpcr"]:
         if col in merged.columns:
             merged[col] = merged[col].fillna(False).astype(bool)
+
+
+
 
     # Quick per-species sanity counts
     print(f"[info] {species_code} is_enzyme TRUE:", int(merged.get("is_enzyme", pd.Series([], dtype=bool)).sum()))
     print(f"[info] {species_code} is_kinase TRUE:", int(merged.get("is_kinase", pd.Series([], dtype=bool)).sum()))
+    print(f"[info] {species_code} df_is_ion_channel TRUE:", int(merged.get("is_ion_channel", pd.Series([], dtype=bool)).sum()))
+    print(f"[info] {species_code} df_is_nuclear_receptor TRUE:", int(merged.get("is_nuclear_receptor", pd.Series([], dtype=bool)).sum()))
     print(f"[info] {species_code} is_gpcr   TRUE:", int(merged.get("is_gpcr",   pd.Series([], dtype=bool)).sum()))
+
+
 
     dups = merged["Gene stable ID"].duplicated(keep=False)
     if dups.any():
         sample = merged.loc[dups, "Gene stable ID"].head(5).tolist()
         raise AssertionError(f"[error] Duplicate 'Gene stable ID' inside species {species_code}, e.g. {sample}")
 
-
     return merged
 
+def attach_celegans_rnai_annotations(merged: pd.DataFrame) -> pd.DataFrame:
+    """
+    Given the per-species merged table (already containing C. elegans orthologue
+    columns from wbpCelegansOrthologues), fetch and attach WormMine RNAi
+    annotations per C. elegans gene.
+
+    Returns a new DataFrame with additional columns:
+      - ce_rnai_result_ids
+      - ce_rnai_phenotype_ids
+      - ce_rnai_phenotype_names
+      - ce_rnai_phenotype_remarks
+      - ce_rnai_rnai_result_remarks
+      - ce_rnai_any_lethal       (bool)
+      - ce_rnai_any_sterile      (bool)
+      - ce_rnai_any_locomotion   (bool)
+    """
+    CE_GENE_COL = "Caenorhabditis elegans (PRJNA13758) [WS290] gene stable ID"
+
+    if CE_GENE_COL not in merged.columns:
+        print(f"[warn] CE RNAi: column '{CE_GENE_COL}' not found in merged table; skipping WormMine RNAi.")
+        return merged
+
+    # Collect unique CE gene IDs from orthologues
+    ce_ids = (
+        merged[CE_GENE_COL]
+        .dropna()
+        .astype(str)
+        .str.strip()
+        .replace("", pd.NA)
+        .dropna()
+        .unique()
+    )
+
+    if len(ce_ids) == 0:
+        print("[info] CE RNAi: no C. elegans orthologues with valid gene IDs; skipping WormMine RNAi.")
+        return merged
+
+    print(f"[info] CE RNAi: fetching WormMine RNAi phenotypes for {len(ce_ids)} C. elegans genes")
+
+    # 1) Long-format WormMine table
+    rnai_long = fetch_wormmine_rnai_for_genes(ce_ids, batch_size=20, max_workers=4)
+
+    if rnai_long.empty:
+        print("[warn] CE RNAi: WormMine returned no RNAi rows; leaving table unchanged.")
+        return merged
+
+    # 2) Aggregate to one row per CE gene
+    rnai_agg = aggregate_rnai_by_gene(rnai_long)
+    print(
+        f"[info] CE RNAi: aggregated to {len(rnai_agg)} rows "
+        f"for {rnai_agg['wormbase_gene_id'].nunique()} C. elegans genes"
+    )
+
+    # 3) Merge onto the per-species merged table via CE gene ID
+    merged_with_rnai = merged.merge(
+        rnai_agg,
+        left_on=CE_GENE_COL,
+        right_on="wormbase_gene_id",
+        how="left",
+    )
+
+    # Drop the duplicate WormMine key if present
+    if "wormbase_gene_id" in merged_with_rnai.columns:
+        merged_with_rnai = merged_with_rnai.drop(columns=["wormbase_gene_id"])
+
+    # Ensure boolean columns are clean (no NaNs)
+    for col in ["ce_rnai_any_lethal", "ce_rnai_any_sterile", "ce_rnai_any_locomotion"]:
+        if col in merged_with_rnai.columns:
+            merged_with_rnai[col] = merged_with_rnai[col].fillna(False).astype(bool)
+
+    return merged_with_rnai
 
 
 def main():
